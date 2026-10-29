@@ -107,3 +107,5 @@ nav.open{display:flex;flex-direction:column;width:100%;order:4;gap:0;padding-bot
 .ecard img{left:44%;width:56%;object-position:center 75%;-webkit-mask-image:linear-gradient(90deg,transparent,#000 18%);mask-image:linear-gradient(90deg,transparent,#000 18%)}
 @media(max-width:900px){header .wrap{height:auto;min-height:68px}}
 .qty[hidden]{display:none}
+.edits{grid-template-columns:1fr}.ed-head{flex-direction:row;align-items:center;flex-wrap:wrap;gap:18px 28px}.ed-head .tilt{transform:rotate(-4deg);margin:0}.ed-head .arrow{margin:0 0 0 auto}
+.ecard,.et{min-height:330px}.et{width:52%}
