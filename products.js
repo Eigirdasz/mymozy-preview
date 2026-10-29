@@ -1,4 +1,3 @@
-// Generiert aus mymozy-sku-data.csv + Miora_DE_final_prices.xlsx (Spalte: 10%-margin price, single unit)
 window.PRODUCTS=[
  {
   "sku": "CEU001",
