@@ -2,13 +2,13 @@
 const $=s=>document.querySelector(s);
 const EN=document.documentElement.lang==='en';const ROOT=window.ROOT||'';
 const T=EN?{cart:'Preview: cart is not active.',menuOpen:'Open menu',menuClose:'Close menu',size:'Size',vat:'incl. VAT',prev:'Preview price',view:'View',need:'Skin concern',clear:'Remove filter',inSet:'Included in set',home:'Home',all:'All products',routine:'Routine',less:'decrease',more:'increase',qty:'Quantity',add:'Add to cart',matches:'Goes well with',suffix:' – MYMOZY (Preview)',
- acc:'<details open><summary>What’s inside</summary><p>Product description and ingredients: coming soon.</p></details><details><summary>Ingredients</summary><p>INCI coming soon</p></details><details><summary>How to use</summary><p>Coming soon</p></details><details><summary>Good to know</summary><p>Coming soon</p></details><details><summary>Shipping, payment &amp; returns</summary><p>Free shipping from €50 (DE), €3.95 below that. Payment and returns: details coming soon.</p></details>',
+ neutral:'<p>Product details coming soon.</p>',acc:'<details open><summary>What’s inside</summary><p>Product description and ingredients: coming soon.</p></details><details><summary>Ingredients</summary><p>INCI coming soon</p></details><details><summary>How to use</summary><p>Coming soon</p></details><details><summary>Good to know</summary><p>Coming soon</p></details><details><summary>Shipping, payment &amp; returns</summary><p>Free shipping from €50 (DE), €3.95 below that. Payment and returns: details coming soon.</p></details>',
  needs:{feuchtigkeit:'Hydration',reinigung:'Cleansing',hautbarriere:'Skin barrier',glow:'Glow'}}
 :{cart:'Vorschau: Warenkorb ist nicht aktiv.',menuOpen:'Menü öffnen',menuClose:'Menü schließen',size:'Größe',vat:'inkl. MwSt.',prev:'Vorschaupreis',view:'Ansehen',need:'Hautbedürfnis',clear:'Filter entfernen',inSet:'Enthalten im Set',home:'Start',all:'Alle Produkte',routine:'Routine',less:'weniger',more:'mehr',qty:'Menge',add:'In den Warenkorb',matches:'Passt dazu',suffix:' – MYMOZY (Vorschau)',
- acc:'<details open><summary>Das steckt drin</summary><p>Produktbeschreibung und Inhaltsstoffe: folgt.</p></details><details><summary>Inhaltsstoffe</summary><p>INCI folgt</p></details><details><summary>Anwendung</summary><p>folgt</p></details><details><summary>Hinweise</summary><p>folgt</p></details><details><summary>Versand, Zahlung &amp; Rückgabe</summary><p>Kostenloser Versand ab 50 € (DE), darunter 3,95 €. Zahlung und Rückgabe: Details folgen.</p></details>',
+ neutral:'<p>Produktinfos folgen.</p>',acc:'<details open><summary>Das steckt drin</summary><p>Produktbeschreibung und Inhaltsstoffe folgen.</p></details><details><summary>Inhaltsstoffe</summary><p>INCI folgt.</p></details><details><summary>Anwendung</summary><p>Folgt.</p></details><details><summary>Hinweise</summary><p>Folgt.</p></details><details><summary>Versand, Zahlung &amp; Rückgabe</summary><p>Kostenloser Versand ab 50 € (DE), darunter 3,95 €. Zahlung und Rückgabe: Details folgen.</p></details>',
  needs:{feuchtigkeit:'Feuchtigkeit',reinigung:'Reinigung',hautbarriere:'Hautbarriere',glow:'Glow'}};
 // Set-Preise zentral aus window.SETS (products.js)
-const fmt=n=>EN?'€'+n.toFixed(2):'€ '+n.toFixed(2).replace('.',',');const shipTxt=n=>n>=50?(EN?'free shipping':'versandkostenfrei'):(EN?'plus €3.95 shipping':'zzgl. 3,95 € Versand');
+const fmt=n=>EN?'€'+n.toFixed(2):n.toFixed(2).replace('.',',')+'\u00a0€';const shipTxt=n=>n>=50?(EN?'free shipping within Germany':'versandkostenfrei in DE'):(EN?'plus €3.95 shipping':'zzgl. 3,95 € Versand');
 (window.SETS||[]).forEach(s=>{document.querySelectorAll(`[data-set-price="${s.id}"]`).forEach(e=>e.textContent=fmt(s.price));document.querySelectorAll(`[data-set-ship="${s.id}"]`).forEach(e=>e.textContent=shipTxt(s.price))});
 const v=(p,k)=>EN&&p.en?p.en[k]:p[k];
 // Sprachumschalter: Query (z. B. ?ean=) und Anker übernehmen
@@ -34,6 +34,6 @@ if(pdp){const p=PRODUCTS.find(x=>x.ean===q.get('ean'))||PRODUCTS[0];document.tit
  <div class="eyebrow">${p.brand}</div><h1 class="pname">${p.name}</h1><p class="small">${v(p,'type')} · ${T.size}: ${p.size}</p><span class="step">${T.routine}: ${v(p,'stepLabel')}</span>
  <div class="price big">${v(p,'price')}</div><p class="small">${T.vat}${v(p,'ship')?' · '+v(p,'ship'):''} · ${T.prev}</p><p class="small">${v(p,'grundpreis')}</p>
  <div class="buy"><div class="qty"><button type="button" data-q="-1" aria-label="${T.less}">−</button><input id="qty" value="1" aria-label="${T.qty}"><button type="button" data-q="1" aria-label="${T.more}">+</button></div><button class="btn" type="button" id="add">${T.add}</button></div><p class="small" id="msg" aria-live="polite"></p>${sets}
- ${T.acc}</div></div>
+ ${p.neutral?T.neutral:T.acc}</div></div>
  ${rel.length?`<section><h2 class="h2s">${T.matches}</h2><div class="pgrid">${rel.map(card).join('')}</div></section>`:''}`;}
 bindBuy();
