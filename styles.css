@@ -72,3 +72,37 @@ nav.open{display:flex;flex-direction:column;width:100%;order:4;gap:0;padding-bot
 @media(max-width:520px){.cards.c4{grid-template-columns:1fr}.pgrid{grid-template-columns:1fr 1fr;gap:12px}.pcard{padding:10px}.pname{font-size:30px!important}.bt{padding:30px 18px 18px}}
 @media(max-width:900px){.hero{grid-template-columns:1fr}.hero-media{min-height:320px}.hero-txt{padding:36px 24px}}
 .inside .step,.pcard .step{align-self:flex-start}
+/* Edits + Hautbedürfnis (Stil nach Rebrand-Referenz) */
+.edits{display:grid;grid-template-columns:200px 1fr;gap:24px;align-items:stretch}
+.ed-head{display:flex;flex-direction:column;gap:14px;padding-top:8px}.ed-head h2{font-size:40px}
+.tilt{transform:rotate(-8deg);transform-origin:left;display:block;font-size:30px;line-height:1.1;margin:10px 0 0}
+.arrow{font-size:30px;text-decoration:none;margin-top:auto}
+.ecards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.ecard{position:relative;display:grid;grid-template-columns:1fr 1.05fr;background:#EDE5D8;border-radius:22px;overflow:hidden;text-decoration:none;min-height:300px}
+.ecard img{width:100%;height:100%;object-fit:cover;object-position:center}
+.et{padding:22px 0 22px 22px;display:flex;flex-direction:column;gap:6px;position:relative;z-index:1}
+.et .num{font-size:38px;font-weight:300;line-height:1}.et h3{font-size:16px;border-bottom:2px solid #111;padding-bottom:6px;margin-top:6px}
+.et p{margin:0;font-size:13.5px;color:#333}.et .price{margin-top:auto}
+.circ{width:44px;height:44px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;font-size:20px;margin-top:8px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.ecard:hover .circ{background:var(--lime)}
+.conc{display:grid;grid-template-columns:240px 1fr;gap:24px;align-items:center}
+.conc-h{display:flex;align-items:center;gap:14px;text-decoration:none}.conc-h h2{font-size:34px}
+.ctiles{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.ctile{height:170px;border-radius:18px;background-size:cover;background-position:center;display:flex;align-items:flex-end;justify-content:space-between;padding:16px 18px;font-weight:700;font-size:17px;text-decoration:none;color:#111}
+.ctile span{font-size:20px}
+@media(max-width:1200px){.ecards{grid-template-columns:1fr}.ecard{min-height:260px}}
+@media(max-width:900px){.edits,.conc{grid-template-columns:1fr}.ed-head{flex-direction:row;flex-wrap:wrap;align-items:center}.ed-head h2{font-size:30px}.tilt{font-size:24px;transform:rotate(-4deg)}.arrow{margin:0 0 0 auto}.ctiles{grid-template-columns:1fr 1fr}.ctile{height:130px}.conc-h h2{font-size:28px}}
+@media(max-width:520px){.ecard{grid-template-columns:1fr 1fr;min-height:240px}.et{padding:18px 0 18px 18px}.et .num{font-size:30px}}
+.lang{display:flex;gap:6px;align-items:center;font-size:13px;font-weight:700}.lsw{text-decoration:none;color:var(--grey);padding:2px 4px;border-radius:6px}.lsw.on{color:#111;background:var(--lime)}
+.lang-m{display:none}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@media(max-width:900px){.lang-d{display:none}nav.open .lang-m{display:flex;padding:12px 0;border-top:1px solid #ddd5c6}nav.open .lang-m a{border:0;padding:2px 6px}}
+.lifestyle.banner{height:auto;aspect-ratio:16/7;margin-bottom:36px}.lifestyle.banner img{object-position:center 20%}
+@media(max-width:900px){.lifestyle.banner{height:auto;aspect-ratio:4/3}.lifestyle.banner img{object-position:68% 30%}}
+#herovid::-webkit-media-controls,#herovid::-webkit-media-controls-start-playback-button,#herovid::-webkit-media-controls-overlay-play-button{display:none!important;-webkit-appearance:none}
+.ecard{display:block;min-height:310px}.ecard img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:right bottom}
+.et{width:48%;height:100%;min-height:310px;padding:22px}
+.conc{grid-template-columns:300px 1fr}.conc-h h2{font-size:30px}
+@media(max-width:900px){.conc{grid-template-columns:1fr}.conc-h h2{font-size:26px}}
+@media(max-width:520px){.ecard,.et{min-height:260px}.et{width:55%;padding:18px}}
+.ecard img{left:44%;width:56%;object-position:center 75%;-webkit-mask-image:linear-gradient(90deg,transparent,#000 18%);mask-image:linear-gradient(90deg,transparent,#000 18%)}
+@media(max-width:900px){header .wrap{height:auto;min-height:68px}}
