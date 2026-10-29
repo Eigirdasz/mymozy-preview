@@ -109,3 +109,13 @@ nav.open{display:flex;flex-direction:column;width:100%;order:4;gap:0;padding-bot
 .qty[hidden]{display:none}
 .edits{grid-template-columns:1fr}.ed-head{flex-direction:row;align-items:center;flex-wrap:wrap;gap:18px 28px}.ed-head .tilt{transform:rotate(-4deg);margin:0}.ed-head .arrow{margin:0 0 0 auto}
 .ecard,.et{min-height:330px}.et{width:52%}
+
+picture{display:contents}
+.ainote{margin:8px 0 14px}
+.gallery .main-img.model{aspect-ratio:auto}.gallery .main-img.model img{aspect-ratio:4/5;height:auto}
+.gallery .ainote+.main-img.model img{aspect-ratio:16/9}
+.lifestyle.banner.rf{margin:22px 0}.lifestyle.banner.rf img{object-position:50% 35%}
+
+picture>img{height:auto;max-width:100%}
+picture>source{display:none}.gallery .thumbs{grid-template-columns:repeat(4,1fr)}
+.card .packs img{min-width:0;flex:1 1 0;max-width:25%;width:auto}.lifestyle.banner.rf img{object-position:50% 75%}
