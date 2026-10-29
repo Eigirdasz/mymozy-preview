@@ -11,9 +11,11 @@ window.PRODUCTS=[
    "reinigung"
   ],
   "size": "155 ml",
-  "price": "17,61 €",
-  "grundpreis": "Grundpreis: 11,36 € / 100 ml",
-  "ship": "zzgl. 3,95 € Versand",
+  "price": "Preis folgt",
+  "priceValue": null,
+  "available": false,
+  "grundpreis": "",
+  "ship": "",
   "img": "assets/products/8806133613375.jpg",
   "featured": true,
   "neutral": false,
@@ -21,9 +23,9 @@ window.PRODUCTS=[
   "en": {
    "type": "Cleansing oil",
    "stepLabel": "Step 1 · Cleanse",
-   "price": "€17.61",
-   "grundpreis": "Unit price: €11.36 / 100 ml",
-   "ship": "plus €3.95 shipping"
+   "price": "Price to follow",
+   "grundpreis": "",
+   "ship": ""
   }
  },
  {
@@ -39,6 +41,8 @@ window.PRODUCTS=[
   ],
   "size": "195 ml",
   "price": "14,90 €",
+  "priceValue": 14.9,
+  "available": true,
   "grundpreis": "Grundpreis: 7,64 € / 100 ml",
   "ship": "zzgl. 3,95 € Versand",
   "img": "assets/products/8809268158445.jpg",
@@ -74,9 +78,11 @@ window.PRODUCTS=[
    "hautbarriere"
   ],
   "size": "30 ml",
-  "price": "22,72 €",
-  "grundpreis": "Grundpreis: 75,73 € / 100 ml",
-  "ship": "zzgl. 3,95 € Versand",
+  "price": "Preis folgt",
+  "priceValue": null,
+  "available": false,
+  "grundpreis": "",
+  "ship": "",
   "img": "assets/products/8809606850482.jpg",
   "featured": true,
   "neutral": false,
@@ -84,9 +90,9 @@ window.PRODUCTS=[
   "en": {
    "type": "Serum",
    "stepLabel": "Step 4 · Serum/ampoule",
-   "price": "€22.72",
-   "grundpreis": "Unit price: €75.73 / 100 ml",
-   "ship": "plus €3.95 shipping"
+   "price": "Price to follow",
+   "grundpreis": "",
+   "ship": ""
   }
  },
  {
@@ -102,9 +108,11 @@ window.PRODUCTS=[
    "feuchtigkeit"
   ],
   "size": "50 ml",
-  "price": "24,52 €",
-  "grundpreis": "Grundpreis: 49,04 € / 100 ml",
-  "ship": "zzgl. 3,95 € Versand",
+  "price": "Preis folgt",
+  "priceValue": null,
+  "available": false,
+  "grundpreis": "",
+  "ship": "",
   "img": "assets/products/8809606850505.jpg",
   "featured": true,
   "neutral": false,
@@ -112,9 +120,9 @@ window.PRODUCTS=[
   "en": {
    "type": "Cream",
    "stepLabel": "Step 5 · Cream",
-   "price": "€24.52",
-   "grundpreis": "Unit price: €49.04 / 100 ml",
-   "ship": "plus €3.95 shipping"
+   "price": "Price to follow",
+   "grundpreis": "",
+   "ship": ""
   }
  },
  {
@@ -129,8 +137,10 @@ window.PRODUCTS=[
    "hautbarriere"
   ],
   "size": "40 ml",
-  "price": "18,72 €",
-  "grundpreis": "Grundpreis: 46,80 € / 100 ml",
+  "price": "16,90 €",
+  "priceValue": 16.9,
+  "available": true,
+  "grundpreis": "Grundpreis: 42,25 € / 100 ml",
   "ship": "zzgl. 3,95 € Versand",
   "img": "assets/products/8809743544626.jpg",
   "featured": false,
@@ -139,8 +149,8 @@ window.PRODUCTS=[
   "en": {
    "type": "Serum",
    "stepLabel": "Step 4 · Serum/ampoule",
-   "price": "€18.72",
-   "grundpreis": "Unit price: €46.80 / 100 ml",
+   "price": "€16.90",
+   "grundpreis": "Unit price: €42.25 / 100 ml",
    "ship": "plus €3.95 shipping"
   }
  },
@@ -156,9 +166,11 @@ window.PRODUCTS=[
    "glow"
   ],
   "size": "30 ml",
-  "price": "22,97 €",
-  "grundpreis": "Grundpreis: 76,57 € / 100 ml",
-  "ship": "zzgl. 3,95 € Versand",
+  "price": "Preis folgt",
+  "priceValue": null,
+  "available": false,
+  "grundpreis": "",
+  "ship": "",
   "img": "assets/products/8809875907795.jpg",
   "featured": true,
   "neutral": false,
@@ -166,9 +178,9 @@ window.PRODUCTS=[
   "en": {
    "type": "Ampoule",
    "stepLabel": "Step 4 · Serum/ampoule",
-   "price": "€22.97",
-   "grundpreis": "Unit price: €76.57 / 100 ml",
-   "ship": "plus €3.95 shipping"
+   "price": "Price to follow",
+   "grundpreis": "",
+   "ship": ""
   }
  },
  {
@@ -183,9 +195,11 @@ window.PRODUCTS=[
    "glow"
   ],
   "size": "50 ml",
-  "price": "23,26 €",
-  "grundpreis": "Grundpreis: 46,52 € / 100 ml",
-  "ship": "zzgl. 3,95 € Versand",
+  "price": "Preis folgt",
+  "priceValue": null,
+  "available": false,
+  "grundpreis": "",
+  "ship": "",
   "img": "assets/products/8809686386185.jpg",
   "featured": true,
   "neutral": false,
@@ -193,9 +207,9 @@ window.PRODUCTS=[
   "en": {
    "type": "Cream",
    "stepLabel": "Step 5 · Cream",
-   "price": "€23.26",
-   "grundpreis": "Unit price: €46.52 / 100 ml",
-   "ship": "plus €3.95 shipping"
+   "price": "Price to follow",
+   "grundpreis": "",
+   "ship": ""
   }
  },
  {
@@ -203,26 +217,28 @@ window.PRODUCTS=[
   "ean": "8809700320812",
   "brand": "Celimax",
   "name": "Celimax The Vita-A Retinal Shot Booster 15 ml",
-  "type": "Booster",
+  "type": "",
   "step": 4,
-  "stepLabel": "Schritt 4 · Serum/Ampulle",
+  "stepLabel": "",
   "concerns": [
    "glow"
   ],
   "size": "15 ml",
-  "price": "21,35 €",
-  "grundpreis": "Grundpreis: 142,33 € / 100 ml",
-  "ship": "zzgl. 3,95 € Versand",
+  "price": "Preis folgt",
+  "priceValue": null,
+  "available": false,
+  "grundpreis": "",
+  "ship": "",
   "img": "assets/products/8809700320812.jpg",
   "featured": false,
   "neutral": true,
   "sets": [],
   "en": {
-   "type": "Booster",
-   "stepLabel": "Step 4 · Serum/ampoule",
-   "price": "€21.35",
-   "grundpreis": "Unit price: €142.33 / 100 ml",
-   "ship": "plus €3.95 shipping"
+   "type": "",
+   "stepLabel": "",
+   "price": "Price to follow",
+   "grundpreis": "",
+   "ship": ""
   }
  },
  {
@@ -238,8 +254,10 @@ window.PRODUCTS=[
    "feuchtigkeit"
   ],
   "size": "50 ml",
-  "price": "21,80 €",
-  "grundpreis": "Grundpreis: 43,60 € / 100 ml",
+  "price": "24,90 €",
+  "priceValue": 24.9,
+  "available": true,
+  "grundpreis": "Grundpreis: 49,80 € / 100 ml",
   "ship": "zzgl. 3,95 € Versand",
   "img": "assets/products/8806133613832.jpg",
   "featured": true,
@@ -248,8 +266,8 @@ window.PRODUCTS=[
   "en": {
    "type": "Cream",
    "stepLabel": "Step 5 · Cream",
-   "price": "€21.80",
-   "grundpreis": "Unit price: €43.60 / 100 ml",
+   "price": "€24.90",
+   "grundpreis": "Unit price: €49.80 / 100 ml",
    "ship": "plus €3.95 shipping"
   }
  },
@@ -266,6 +284,8 @@ window.PRODUCTS=[
   ],
   "size": "150 ml",
   "price": "21,90 €",
+  "priceValue": 21.9,
+  "available": true,
   "grundpreis": "Grundpreis: 14,60 € / 100 ml",
   "ship": "zzgl. 3,95 € Versand",
   "img": "assets/products/8806133615218.jpg",
@@ -293,6 +313,8 @@ window.PRODUCTS=[
   ],
   "size": "75 g",
   "price": "16,90 €",
+  "priceValue": 16.9,
+  "available": true,
   "grundpreis": "Grundpreis: 22,53 € / 100 g",
   "ship": "zzgl. 3,95 € Versand",
   "img": "assets/products/8806133616536.jpg",
@@ -319,8 +341,10 @@ window.PRODUCTS=[
    "glow"
   ],
   "size": "15 ml",
-  "price": "16,64 €",
-  "grundpreis": "Grundpreis: 110,93 € / 100 ml",
+  "price": "14,90 €",
+  "priceValue": 14.9,
+  "available": true,
+  "grundpreis": "Grundpreis: 99,33 € / 100 ml",
   "ship": "zzgl. 3,95 € Versand",
   "img": "assets/products/8806133614174.jpg",
   "featured": true,
@@ -329,8 +353,8 @@ window.PRODUCTS=[
   "en": {
    "type": "Ampoule",
    "stepLabel": "Step 4 · Serum/ampoule",
-   "price": "€16.64",
-   "grundpreis": "Unit price: €110.93 / 100 ml",
+   "price": "€14.90",
+   "grundpreis": "Unit price: €99.33 / 100 ml",
    "ship": "plus €3.95 shipping"
   }
  },
@@ -347,6 +371,8 @@ window.PRODUCTS=[
   ],
   "size": "50 ml",
   "price": "20,90 €",
+  "priceValue": 20.9,
+  "available": true,
   "grundpreis": "Grundpreis: 41,80 € / 100 ml",
   "ship": "zzgl. 3,95 € Versand",
   "img": "assets/products/8809732910661.jpg",
@@ -392,6 +418,8 @@ window.PRODUCTS=[
   ],
   "size": "50 ml",
   "price": "16,90 €",
+  "priceValue": 16.9,
+  "available": true,
   "grundpreis": "Grundpreis: 33,80 € / 100 ml",
   "ship": "zzgl. 3,95 € Versand",
   "img": "assets/products/8809732910159.jpg",
@@ -432,6 +460,8 @@ window.PRODUCTS=[
   ],
   "size": "150 ml",
   "price": "9,90 €",
+  "priceValue": 9.9,
+  "available": true,
   "grundpreis": "Grundpreis: 6,60 € / 100 ml",
   "ship": "zzgl. 3,95 € Versand",
   "img": "assets/products/8809732911583.jpg",
@@ -464,6 +494,8 @@ window.PRODUCTS=[
   ],
   "size": "30 ml",
   "price": "26,90 €",
+  "priceValue": 26.9,
+  "available": true,
   "grundpreis": "Grundpreis: 89,67 € / 100 ml",
   "ship": "zzgl. 3,95 € Versand",
   "img": "assets/products/8809732915406.jpg",
@@ -495,8 +527,10 @@ window.PRODUCTS=[
    "hautbarriere"
   ],
   "size": "100 ml",
-  "price": "18,37 €",
-  "grundpreis": "Grundpreis: 18,37 € / 100 ml",
+  "price": "19,90 €",
+  "priceValue": 19.9,
+  "available": true,
+  "grundpreis": "Grundpreis: 19,90 € / 100 ml",
   "ship": "zzgl. 3,95 € Versand",
   "img": "assets/products/8809732910289.jpg",
   "featured": true,
@@ -505,8 +539,8 @@ window.PRODUCTS=[
   "en": {
    "type": "Essence",
    "stepLabel": "Step 3 · Essence",
-   "price": "€18.37",
-   "grundpreis": "Unit price: €18.37 / 100 ml",
+   "price": "€19.90",
+   "grundpreis": "Unit price: €19.90 / 100 ml",
    "ship": "plus €3.95 shipping"
   }
  },
@@ -515,25 +549,27 @@ window.PRODUCTS=[
   "ean": "8806133615966",
   "brand": "Dr. Ceuracle",
   "name": "Dr. Ceuracle Hyal Reyouth Moist Sun SPF 50 50 ml",
-  "type": "Sonnenschutz",
+  "type": "",
   "step": 6,
-  "stepLabel": "Letzter Schritt morgens · Sonnenschutz",
+  "stepLabel": "",
   "concerns": [
    "feuchtigkeit"
   ],
   "size": "50 ml",
-  "price": "18,31 €",
-  "grundpreis": "Grundpreis: 36,62 € / 100 ml",
+  "price": "14,90 €",
+  "priceValue": 14.9,
+  "available": true,
+  "grundpreis": "Grundpreis: 29,80 € / 100 ml",
   "ship": "zzgl. 3,95 € Versand",
   "img": "assets/products/8806133615966.jpg",
   "featured": true,
   "neutral": true,
   "sets": [],
   "en": {
-   "type": "Sunscreen",
-   "stepLabel": "Last step (AM) · Sunscreen",
-   "price": "€18.31",
-   "grundpreis": "Unit price: €36.62 / 100 ml",
+   "type": "",
+   "stepLabel": "",
+   "price": "€14.90",
+   "grundpreis": "Unit price: €29.80 / 100 ml",
    "ship": "plus €3.95 shipping"
   }
  }
@@ -554,7 +590,9 @@ window.SETS=[
   "fuer": "Wenn du eine einfache 3-Schritt-Routine für jeden Tag suchst.",
   "priceTxt": "59,90 €",
   "ship": "versandkostenfrei in DE",
+  "sub": "",
   "en": {
+   "sub": "",
    "line": "Essence. Serum. Cream. Your daily basics.",
    "fuer": "If you want a simple 3-step routine for every day.",
    "priceTxt": "€59.90",
@@ -566,7 +604,8 @@ window.SETS=[
   "file": "set-bean-routine.html",
   "num": "02",
   "name": "The Bean Routine",
-  "line": "Vier Schritte, von der Reinigung bis zur Creme.",
+  "line": "Reinigen, vorbereiten, pflegen, abschließen: deine Mixsoon-Routine in vier Schritten.",
+  "sub": "Bean Cleansing Oil, Centella Toner, Bean Essence und Bean Cream – versandkostenfrei in DE.",
   "price": 57.9,
   "items": [
    "MXS009",
@@ -578,7 +617,8 @@ window.SETS=[
   "priceTxt": "57,90 €",
   "ship": "versandkostenfrei in DE",
   "en": {
-   "line": "Four steps, from cleanse to cream.",
+   "sub": "Bean Cleansing Oil, Centella Toner, Bean Essence and Bean Cream – free shipping within Germany.",
+   "line": "Cleanse, prep, care, finish: your Mixsoon routine in four steps.",
    "fuer": "If you want a complete routine in four steps.",
    "priceTxt": "€57.90",
    "ship": "free shipping within Germany"
@@ -598,7 +638,9 @@ window.SETS=[
   "fuer": "Wenn du mit zwei Schritten starten möchtest: Essenz und Creme.",
   "priceTxt": "34,90 €",
   "ship": "zzgl. 3,95 € Versand",
+  "sub": "",
   "en": {
+   "sub": "",
    "line": "Hydration in two steps.",
    "fuer": "If you want to start with two steps: essence and cream.",
    "priceTxt": "€34.90",
@@ -619,7 +661,9 @@ window.SETS=[
   "fuer": "Wenn du deine Abendroutine mit einem Reinigungsöl beginnen möchtest.",
   "priceTxt": "32,90 €",
   "ship": "zzgl. 3,95 € Versand",
+  "sub": "",
   "en": {
+   "sub": "",
    "line": "Cleanse gently, start fresh.",
    "fuer": "If you want to start your evening routine with a cleansing oil.",
    "priceTxt": "€32.90",
