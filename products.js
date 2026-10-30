@@ -560,13 +560,13 @@ window.PRODUCTS=[
    "feuchtigkeit"
   ],
   "size": "50 ml",
-  "price": "14,90 €",
-  "priceValue": 14.9,
-  "available": true,
-  "grundpreis": "Grundpreis: 29,80 € / 100 ml",
-  "ship": "zzgl. 3,95 € Versand",
+  "price": "Preis folgt",
+  "priceValue": null,
+  "available": false,
+  "grundpreis": "",
+  "ship": "",
   "img": "assets/img/p-8806133615966",
-  "featured": true,
+  "featured": false,
   "neutral": true,
   "sets": [
    {
@@ -577,9 +577,9 @@ window.PRODUCTS=[
   "en": {
    "type": "",
    "stepLabel": "",
-   "price": "€14.90",
-   "grundpreis": "Unit price: €29.80 / 100 ml",
-   "ship": "plus €3.95 shipping"
+   "price": "Price to follow",
+   "grundpreis": "",
+   "ship": ""
   }
  }
 ];
@@ -590,7 +590,7 @@ window.SETS=[
   "num": "01",
   "name": "The Daily Glow",
   "line": "Essenz. Serum. Creme. Deine tägliche Basis.",
-  "sub": "Drei Mixsoon-Favoriten für jeden Tag: Bean Essence, PDRN Collagen Serum und Bean Cream.",
+  "sub": "Drei Mixsoon-Produkte für jeden Tag: Bean Essence, PDRN Collagen Serum und Bean Cream.",
   "price": 59.9,
   "items": [
    "MXS003",
@@ -598,10 +598,11 @@ window.SETS=[
    "MXS002"
   ],
   "fuer": "Wenn du eine einfache 3-Schritt-Routine für jeden Tag suchst.",
+  "available": true,
   "priceTxt": "59,90 €",
   "ship": "versandkostenfrei in DE",
   "en": {
-   "sub": "Three Mixsoon favourites for every day: Bean Essence, PDRN Collagen Serum and Bean Cream.",
+   "sub": "Three Mixsoon picks for every day: Bean Essence, PDRN Collagen Serum and Bean Cream.",
    "line": "Essence. Serum. Cream. Your daily basics.",
    "fuer": "If you want a simple 3-step routine for every day.",
    "priceTxt": "€59.90",
@@ -622,6 +623,7 @@ window.SETS=[
    "MXS028"
   ],
   "fuer": "Wenn du deine Routine mit einem Reinigungsöl beginnen und mit Essenz und Serum weitermachen möchtest.",
+  "available": true,
   "priceTxt": "56,90 €",
   "ship": "versandkostenfrei in DE",
   "en": {
@@ -637,7 +639,7 @@ window.SETS=[
   "file": "set-kombucha.html",
   "num": "03",
   "name": "The Kombucha Ritual",
-  "line": "Dein Wohlfühlmoment für jeden Tag.",
+  "line": "Essenz. Ampulle. Creme. Dein Dr.-Ceuracle-Ritual.",
   "sub": "Ein Dr.-Ceuracle-Trio: Vegan Kombucha Tea Essence, Royal Vita Propolis 33 Ampoule und Royal Vita Propolis 33 Cream.",
   "price": 56.9,
   "items": [
@@ -646,11 +648,12 @@ window.SETS=[
    "CEU004"
   ],
   "fuer": "Wenn du deine tägliche Routine um drei Schritte von Dr. Ceuracle erweitern möchtest.",
+  "available": true,
   "priceTxt": "56,90 €",
   "ship": "versandkostenfrei in DE",
   "en": {
    "sub": "A Dr. Ceuracle trio: Vegan Kombucha Tea Essence, Royal Vita Propolis 33 Ampoule and Royal Vita Propolis 33 Cream.",
-   "line": "Your feel-good moment, every day.",
+   "line": "Essence. Ampoule. Cream. Your Dr. Ceuracle ritual.",
    "fuer": "If you want to add three Dr. Ceuracle steps to your daily routine.",
    "priceTxt": "€56.90",
    "ship": "free shipping within Germany"
@@ -662,22 +665,23 @@ window.SETS=[
   "num": "04",
   "name": "The Calm & Protect Edit",
   "line": "Drei Schritte für deine Tagesroutine.",
-  "sub": "Celimax Real Cica Niacinamide Serum, Mixsoon Soondy Centella Essence und Dr. Ceuracle Hyal Reyouth Moist Sun SPF 50 in einem Set.",
-  "price": 47.9,
+  "sub": "Mixsoon Soondy Centella Essence, Celimax The Real Cica Niacinamide Serum und Dr. Ceuracle Hyal Reyouth Moist Sun – drei Marken in einem Set.",
+  "price": null,
   "items": [
    "MXS029",
    "CEL004",
    "CEU021"
   ],
   "fuer": "Wenn du drei Produkte aus drei Marken für deine Morgenroutine kombinieren möchtest.",
-  "priceTxt": "47,90 €",
-  "ship": "zzgl. 3,95 € Versand",
+  "available": false,
+  "priceTxt": "Preis folgt",
+  "ship": "",
   "en": {
-   "sub": "Celimax Real Cica Niacinamide Serum, Mixsoon Soondy Centella Essence and Dr. Ceuracle Hyal Reyouth Moist Sun SPF 50 in one set.",
+   "sub": "Mixsoon Soondy Centella Essence, Celimax The Real Cica Niacinamide Serum and Dr. Ceuracle Hyal Reyouth Moist Sun – three brands in one set.",
    "line": "Three steps for your daytime routine.",
    "fuer": "If you want to combine three products from three brands in your morning routine.",
-   "priceTxt": "€47.90",
-   "ship": "plus €3.95 shipping"
+   "priceTxt": "Price to follow",
+   "ship": ""
   }
  }
 ];

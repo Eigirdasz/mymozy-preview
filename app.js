@@ -13,7 +13,7 @@ const T=EN?{cart:'Preview: the cart isn’t active yet – nothing was added.',m
 // Set-Preise zentral aus window.SETS (products.js)
 const fmt=n=>EN?'€'+n.toFixed(2):n.toFixed(2).replace('.',',')+'\u00a0€';
 const shipTxt=n=>n>=50?(EN?'free shipping within Germany':'versandkostenfrei in DE'):(EN?'plus €3.95 shipping':'zzgl. 3,95 € Versand');
-(window.SETS||[]).forEach(s=>{$$(`[data-set-price="${s.id}"]`).forEach(e=>e.textContent=fmt(s.price));$$(`[data-set-ship="${s.id}"]`).forEach(e=>e.textContent=shipTxt(s.price))});
+(window.SETS||[]).forEach(s=>{if(s.price==null)return;$$(`[data-set-price="${s.id}"]`).forEach(e=>e.textContent=fmt(s.price));$$(`[data-set-ship="${s.id}"]`).forEach(e=>e.textContent=shipTxt(s.price))});
 const v=(p,k)=>EN&&p.en?p.en[k]:p[k];
 // Sprachumschalter: Query (z. B. ?ean=) und Anker übernehmen
 $$('a.lsw').forEach(a=>{a.href=a.getAttribute('href')+location.search+location.hash});

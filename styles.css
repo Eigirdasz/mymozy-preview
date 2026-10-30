@@ -285,7 +285,7 @@ details>p{padding:0 0 var(--s4);color:var(--grey-700)}
 .favs .pcard .btn.sm+.btn.sm{margin-top:var(--s2)}.favs .btn.sm:not(.add-p){background:transparent;border-color:var(--ink)}
 .arrow-l{font-weight:700;margin-left:auto;min-height:44px;display:inline-flex;align-items:center}
 .allsets{margin-top:var(--s5);text-align:center}
-#favoriten,#finder-teaser{padding:var(--s7) 0 0}
+#auswahl,#finder-teaser{padding:var(--s7) 0 0}
 .tease{display:grid;grid-template-columns:3fr 2fr;gap:var(--s4)}
 .tease>div{border-radius:var(--r-lg);padding:var(--s7) var(--s6);display:flex;flex-direction:column;align-items:flex-start;gap:var(--s3)}
 .tq{background:var(--blue);color:#fff}.tq h2{font-size:clamp(28px,3.4vw,44px)}.tq .btn{margin-top:var(--s2)}
