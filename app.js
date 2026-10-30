@@ -21,9 +21,16 @@ $$('a.lsw').forEach(a=>{a.href=a.getAttribute('href')+location.search+location.h
 const m=$('.menu'),nav=$('#nav');
 const setMenu=o=>{nav.classList.toggle('open',o);m.setAttribute('aria-expanded',o);m.setAttribute('aria-label',o?T.menuClose:T.menuOpen)};
 if(m){m.onclick=()=>setMenu(!nav.classList.contains('open'));document.addEventListener('keydown',e=>{if(e.key==='Escape'&&nav.classList.contains('open')){setMenu(false);m.focus()}})}
-// Hero-Video: erst nach dem Laden starten (Poster-Bild ist LCP), reduzierte Bewegung respektieren
-const hv=$('#herovid');
-if(hv&&!matchMedia('(prefers-reduced-motion: reduce)').matches){const go=()=>{hv.src=hv.dataset.src;hv.muted=true;const pp=hv.play();if(pp&&pp.catch)pp.catch(()=>{})};document.readyState==='complete'?setTimeout(go,300):addEventListener('load',()=>setTimeout(go,300))}
+// Hero-Video: autoplay im Markup, play() als Backup; bei Ablehnung (z. B. Stromsparmodus) beim ersten Nutzerkontakt erneut versuchen
+const hv=$('#herovid'),vt=$('#vtoggle');
+if(hv){let userPaused=false;hv.muted=true;hv.defaultMuted=true;hv.setAttribute('muted','');
+ const ev=['touchstart','pointerdown','click','scroll','keydown'];
+ const retry=()=>{ev.forEach(e=>removeEventListener(e,retry,true));if(!userPaused)tryPlay()};
+ const tryPlay=()=>{const pp=hv.play();if(pp&&pp.catch)pp.catch(()=>{ev.forEach(e=>addEventListener(e,retry,{capture:true,passive:true,once:true}))})};
+ const sync=()=>{if(!vt)return;const paused=hv.paused;vt.setAttribute('aria-pressed',paused);vt.setAttribute('aria-label',paused?vt.dataset.lPlay:vt.dataset.lPause)};
+ hv.addEventListener('play',sync);hv.addEventListener('pause',sync);
+ if(vt)vt.addEventListener('click',e=>{e.stopPropagation();if(hv.paused){userPaused=false;tryPlay()}else{userPaused=true;hv.pause()}});
+ if(hv.paused)tryPlay();sync();}
 // Newsletter (Vorschau)
 const nf=$('.news form');if(nf)nf.addEventListener('submit',()=>{$('#nl-msg').textContent=T.nl});
 function bindBuy(){$$('[data-q]').forEach(b=>b.onclick=()=>{const i=$('#qty');i.value=Math.max(1,(+i.value||1)+(+b.dataset.q))});
