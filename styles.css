@@ -255,3 +255,4 @@ details>p{padding:0 0 var(--s4);color:var(--grey-700)}
 .is-prod .stage.wide .slide.prod img{padding:3%}.is-prod .stage.wide .ai{max-width:30%;border-radius:var(--r-sm)}
 @media(max-width:560px){.stage .ai{font-size:11px}.is-prod .stage:not(.wide) .slide.prod img{padding-bottom:12%}}
 .stage{background:var(--pk)}.is-prod .stage .ai{max-width:none;white-space:nowrap;font-size:11px}
+.stage .slide.prod img{-webkit-mask-image:radial-gradient(closest-side,#000 82%,transparent 100%);mask-image:radial-gradient(closest-side,#000 82%,transparent 100%)}
