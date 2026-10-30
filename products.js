@@ -50,12 +50,8 @@ window.PRODUCTS=[
   "neutral": false,
   "sets": [
    {
-    "name": "The Bean Routine",
-    "file": "set-bean-routine.html"
-   },
-   {
-    "name": "The Soft Reset",
-    "file": "set-reset.html"
+    "name": "The Fresh Start",
+    "file": "set-fresh-start.html"
    }
   ],
   "en": {
@@ -145,7 +141,12 @@ window.PRODUCTS=[
   "img": "assets/img/p-8809743544626",
   "featured": false,
   "neutral": false,
-  "sets": [],
+  "sets": [
+   {
+    "name": "The Calm & Protect Edit",
+    "file": "set-calm-protect.html"
+   }
+  ],
   "en": {
    "type": "Serum",
    "stepLabel": "Step 4 · Serum/ampoule",
@@ -262,7 +263,12 @@ window.PRODUCTS=[
   "img": "assets/img/p-8806133613832",
   "featured": true,
   "neutral": false,
-  "sets": [],
+  "sets": [
+   {
+    "name": "The Kombucha Ritual",
+    "file": "set-kombucha.html"
+   }
+  ],
   "en": {
    "type": "Cream",
    "stepLabel": "Step 5 · Cream",
@@ -291,7 +297,12 @@ window.PRODUCTS=[
   "img": "assets/img/p-8806133615218",
   "featured": true,
   "neutral": false,
-  "sets": [],
+  "sets": [
+   {
+    "name": "The Kombucha Ritual",
+    "file": "set-kombucha.html"
+   }
+  ],
   "en": {
    "type": "Essence",
    "stepLabel": "Step 3 · Essence",
@@ -349,7 +360,12 @@ window.PRODUCTS=[
   "img": "assets/img/p-8806133614174",
   "featured": true,
   "neutral": false,
-  "sets": [],
+  "sets": [
+   {
+    "name": "The Kombucha Ritual",
+    "file": "set-kombucha.html"
+   }
+  ],
   "en": {
    "type": "Ampoule",
    "stepLabel": "Step 4 · Serum/ampoule",
@@ -382,18 +398,6 @@ window.PRODUCTS=[
    {
     "name": "The Daily Glow",
     "file": "edit-daily.html"
-   },
-   {
-    "name": "The Bean Routine",
-    "file": "set-bean-routine.html"
-   },
-   {
-    "name": "The Hydration Duo",
-    "file": "set-hydration.html"
-   },
-   {
-    "name": "The Soft Reset",
-    "file": "set-reset.html"
    }
   ],
   "en": {
@@ -429,14 +433,6 @@ window.PRODUCTS=[
    {
     "name": "The Daily Glow",
     "file": "edit-daily.html"
-   },
-   {
-    "name": "The Bean Routine",
-    "file": "set-bean-routine.html"
-   },
-   {
-    "name": "The Hydration Duo",
-    "file": "set-hydration.html"
    }
   ],
   "en": {
@@ -467,12 +463,7 @@ window.PRODUCTS=[
   "img": "assets/img/p-8809732911583",
   "featured": true,
   "neutral": false,
-  "sets": [
-   {
-    "name": "The Bean Routine",
-    "file": "set-bean-routine.html"
-   }
-  ],
+  "sets": [],
   "en": {
    "type": "Toner",
    "stepLabel": "Step 2 · Toner",
@@ -505,6 +496,10 @@ window.PRODUCTS=[
    {
     "name": "The Daily Glow",
     "file": "edit-daily.html"
+   },
+   {
+    "name": "The Fresh Start",
+    "file": "set-fresh-start.html"
    }
   ],
   "en": {
@@ -535,7 +530,16 @@ window.PRODUCTS=[
   "img": "assets/img/p-8809732910289",
   "featured": true,
   "neutral": false,
-  "sets": [],
+  "sets": [
+   {
+    "name": "The Fresh Start",
+    "file": "set-fresh-start.html"
+   },
+   {
+    "name": "The Calm & Protect Edit",
+    "file": "set-calm-protect.html"
+   }
+  ],
   "en": {
    "type": "Essence",
    "stepLabel": "Step 3 · Essence",
@@ -564,7 +568,12 @@ window.PRODUCTS=[
   "img": "assets/img/p-8806133615966",
   "featured": true,
   "neutral": true,
-  "sets": [],
+  "sets": [
+   {
+    "name": "The Calm & Protect Edit",
+    "file": "set-calm-protect.html"
+   }
+  ],
   "en": {
    "type": "",
    "stepLabel": "",
@@ -581,6 +590,7 @@ window.SETS=[
   "num": "01",
   "name": "The Daily Glow",
   "line": "Essenz. Serum. Creme. Deine tägliche Basis.",
+  "sub": "Drei Mixsoon-Favoriten für jeden Tag: Bean Essence, PDRN Collagen Serum und Bean Cream.",
   "price": 59.9,
   "items": [
    "MXS003",
@@ -590,9 +600,8 @@ window.SETS=[
   "fuer": "Wenn du eine einfache 3-Schritt-Routine für jeden Tag suchst.",
   "priceTxt": "59,90 €",
   "ship": "versandkostenfrei in DE",
-  "sub": "",
   "en": {
-   "sub": "",
+   "sub": "Three Mixsoon favourites for every day: Bean Essence, PDRN Collagen Serum and Bean Cream.",
    "line": "Essence. Serum. Cream. Your daily basics.",
    "fuer": "If you want a simple 3-step routine for every day.",
    "priceTxt": "€59.90",
@@ -600,73 +609,74 @@ window.SETS=[
   }
  },
  {
-  "id": "bean",
-  "file": "set-bean-routine.html",
+  "id": "fresh",
+  "file": "set-fresh-start.html",
   "num": "02",
-  "name": "The Bean Routine",
-  "line": "Reinigen, vorbereiten, pflegen, abschließen: deine Mixsoon-Routine in vier Schritten.",
-  "sub": "Bean Cleansing Oil, Centella Toner, Bean Essence und Bean Cream – versandkostenfrei in DE.",
-  "price": 57.9,
+  "name": "The Fresh Start",
+  "line": "Reinigen. Pflegen. Frisch starten.",
+  "sub": "Ein Mixsoon-Trio: Bean Cleansing Oil, Soondy Centella Essence und PDRN Collagen Serum – Reinigung, Essenz und Serum in einem Set.",
+  "price": 56.9,
   "items": [
    "MXS009",
-   "MXS013",
-   "MXS003",
-   "MXS002"
+   "MXS029",
+   "MXS028"
   ],
-  "fuer": "Wenn du eine komplette Routine in vier Schritten suchst.",
-  "priceTxt": "57,90 €",
+  "fuer": "Wenn du deine Routine mit einem Reinigungsöl beginnen und mit Essenz und Serum weitermachen möchtest.",
+  "priceTxt": "56,90 €",
   "ship": "versandkostenfrei in DE",
   "en": {
-   "sub": "Bean Cleansing Oil, Centella Toner, Bean Essence and Bean Cream – free shipping within Germany.",
-   "line": "Cleanse, prep, care, finish: your Mixsoon routine in four steps.",
-   "fuer": "If you want a complete routine in four steps.",
-   "priceTxt": "€57.90",
+   "sub": "A Mixsoon trio: Bean Cleansing Oil, Soondy Centella Essence and PDRN Collagen Serum – cleanser, essence and serum in one set.",
+   "line": "Cleanse. Care. Start fresh.",
+   "fuer": "If you want to start your routine with a cleansing oil and follow with essence and serum.",
+   "priceTxt": "€56.90",
    "ship": "free shipping within Germany"
   }
  },
  {
-  "id": "hydration",
-  "file": "set-hydration.html",
+  "id": "kombucha",
+  "file": "set-kombucha.html",
   "num": "03",
-  "name": "The Hydration Duo",
-  "line": "Feuchtigkeit in zwei Schritten.",
-  "price": 34.9,
+  "name": "The Kombucha Ritual",
+  "line": "Dein Wohlfühlmoment für jeden Tag.",
+  "sub": "Ein Dr.-Ceuracle-Trio: Vegan Kombucha Tea Essence, Royal Vita Propolis 33 Ampoule und Royal Vita Propolis 33 Cream.",
+  "price": 56.9,
   "items": [
-   "MXS003",
-   "MXS002"
+   "CEU010",
+   "CEU023",
+   "CEU004"
   ],
-  "fuer": "Wenn du mit zwei Schritten starten möchtest: Essenz und Creme.",
-  "priceTxt": "34,90 €",
-  "ship": "zzgl. 3,95 € Versand",
-  "sub": "",
+  "fuer": "Wenn du deine tägliche Routine um drei Schritte von Dr. Ceuracle erweitern möchtest.",
+  "priceTxt": "56,90 €",
+  "ship": "versandkostenfrei in DE",
   "en": {
-   "sub": "",
-   "line": "Hydration in two steps.",
-   "fuer": "If you want to start with two steps: essence and cream.",
-   "priceTxt": "€34.90",
-   "ship": "plus €3.95 shipping"
+   "sub": "A Dr. Ceuracle trio: Vegan Kombucha Tea Essence, Royal Vita Propolis 33 Ampoule and Royal Vita Propolis 33 Cream.",
+   "line": "Your feel-good moment, every day.",
+   "fuer": "If you want to add three Dr. Ceuracle steps to your daily routine.",
+   "priceTxt": "€56.90",
+   "ship": "free shipping within Germany"
   }
  },
  {
-  "id": "reset",
-  "file": "set-reset.html",
+  "id": "calm",
+  "file": "set-calm-protect.html",
   "num": "04",
-  "name": "The Soft Reset",
-  "line": "Sanft reinigen, gepflegt starten.",
-  "price": 32.9,
+  "name": "The Calm & Protect Edit",
+  "line": "Drei Schritte für deine Tagesroutine.",
+  "sub": "Celimax Real Cica Niacinamide Serum, Mixsoon Soondy Centella Essence und Dr. Ceuracle Hyal Reyouth Moist Sun SPF 50 in einem Set.",
+  "price": 47.9,
   "items": [
-   "MXS009",
-   "MXS002"
+   "MXS029",
+   "CEL004",
+   "CEU021"
   ],
-  "fuer": "Wenn du deine Abendroutine mit einem Reinigungsöl beginnen möchtest.",
-  "priceTxt": "32,90 €",
+  "fuer": "Wenn du drei Produkte aus drei Marken für deine Morgenroutine kombinieren möchtest.",
+  "priceTxt": "47,90 €",
   "ship": "zzgl. 3,95 € Versand",
-  "sub": "",
   "en": {
-   "sub": "",
-   "line": "Cleanse gently, start fresh.",
-   "fuer": "If you want to start your evening routine with a cleansing oil.",
-   "priceTxt": "€32.90",
+   "sub": "Celimax Real Cica Niacinamide Serum, Mixsoon Soondy Centella Essence and Dr. Ceuracle Hyal Reyouth Moist Sun SPF 50 in one set.",
+   "line": "Three steps for your daytime routine.",
+   "fuer": "If you want to combine three products from three brands in your morning routine.",
+   "priceTxt": "€47.90",
    "ship": "plus €3.95 shipping"
   }
  }
