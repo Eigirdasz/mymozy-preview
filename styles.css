@@ -325,3 +325,7 @@ footer .links.svc{margin:0}footer .small{color:#bbb}
 /* R5 END */
 
 .script .heart{display:inline-block;width:1.1em;height:1.05em;vertical-align:-.22em;margin-left:.14em;transform:rotate(14deg);overflow:visible}
+/* HERO4K */
+.hero-media video.hv4{z-index:1;opacity:0;transition:opacity .45s ease}
+.hero-media video.hv4.on{opacity:1}
+.hero-media #vtoggle,.hero-media .vtoggle{z-index:3}

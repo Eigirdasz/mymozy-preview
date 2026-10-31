@@ -21,16 +21,37 @@ $$('a.lsw').forEach(a=>{a.href=a.getAttribute('href')+location.search+location.h
 const m=$('.menu'),nav=$('#nav');
 const setMenu=o=>{nav.classList.toggle('open',o);m.setAttribute('aria-expanded',o);m.setAttribute('aria-label',o?T.menuClose:T.menuOpen)};
 if(m){m.onclick=()=>setMenu(!nav.classList.contains('open'));document.addEventListener('keydown',e=>{if(e.key==='Escape'&&nav.classList.contains('open')){setMenu(false);m.focus()}})}
-// Hero-Video: autoplay im Markup, play() als Backup; bei Ablehnung (z. B. Stromsparmodus) beim ersten Nutzerkontakt erneut versuchen
+// Hero-Video: klein starten (1080/720, Fast-Start), danach optional 4K nachladen und überblenden
 const hv=$('#herovid'),vt=$('#vtoggle');
-if(hv){let userPaused=false;hv.muted=true;hv.defaultMuted=true;hv.setAttribute('muted','');
+if(hv){let userPaused=false,act=hv;const H=window.__hero={first:hv.currentSrc||hv.querySelector('source').src,swapped:false,active:()=>act};
+ const prep=v=>{v.muted=true;v.defaultMuted=true;v.setAttribute('muted','');v.playsInline=true};prep(hv);
  const ev=['touchstart','pointerdown','click','scroll','keydown'];
  const retry=()=>{ev.forEach(e=>removeEventListener(e,retry,true));if(!userPaused)tryPlay()};
- const tryPlay=()=>{const pp=hv.play();if(pp&&pp.catch)pp.catch(()=>{ev.forEach(e=>addEventListener(e,retry,{capture:true,passive:true,once:true}))})};
- const sync=()=>{if(!vt)return;const paused=hv.paused;vt.setAttribute('aria-pressed',paused);vt.setAttribute('aria-label',paused?vt.dataset.lPlay:vt.dataset.lPause)};
- hv.addEventListener('play',sync);hv.addEventListener('pause',sync);
- if(vt)vt.addEventListener('click',e=>{e.stopPropagation();if(hv.paused){userPaused=false;tryPlay()}else{userPaused=true;hv.pause()}});
- if(hv.paused)tryPlay();sync();}
+ const tryPlay=()=>{if(userPaused||!act.paused)return;const pp=act.play();if(pp&&pp.catch)pp.catch(()=>{ev.forEach(e=>addEventListener(e,retry,{capture:true,passive:true,once:true}))})};
+ const sync=()=>{if(!vt)return;const paused=act.paused;vt.setAttribute('aria-pressed',paused);vt.setAttribute('aria-label',paused?vt.dataset.lPlay:vt.dataset.lPause)};
+ ['play','pause'].forEach(e=>hv.addEventListener(e,sync));['loadeddata','canplay'].forEach(e=>hv.addEventListener(e,tryPlay));
+ document.addEventListener('visibilitychange',()=>{if(!document.hidden)tryPlay()});
+ if(vt)vt.addEventListener('click',e=>{e.stopPropagation();if(act.paused){userPaused=false;tryPlay()}else{userPaused=true;act.pause()}});
+ hv.addEventListener('playing',()=>{H.first=H.first||hv.currentSrc;H.firstSrc=hv.currentSrc});
+ tryPlay();sync();
+ // 4K nur bei >1200 CSS-px und DPR>=2, erst wenn das kleine Video läuft
+ const big=innerWidth>1200&&devicePixelRatio>=2&&!(navigator.connection&&navigator.connection.saveData);
+ let started=false;const up=()=>{if(started||!big)return;started=true;
+  const v=document.createElement('video');prep(v);v.loop=true;v.preload='auto';v.className='hv4';v.setAttribute('aria-hidden','true');v.tabIndex=-1;v.disablePictureInPicture=true;
+  const base=(hv.currentSrc||'').replace(/hero-v2-[^/]*$/,'');const hevc=v.canPlayType('video/mp4; codecs="hvc1"')||v.canPlayType('video/mp4; codecs="hvc1.1.6.L150.B0"');
+  v.src=base+(hevc?'hero-v2-2160-hevc.mp4':'hero-v2-2160.mp4');H.upSrc=v.src;
+  hv.parentNode.insertBefore(v,hv.nextSibling);
+  const giveUp=setTimeout(()=>{if(!H.swapped){v.removeAttribute('src');v.load();v.remove();H.upFailed=true}},25000);
+  v.addEventListener('canplaythrough',()=>{if(H.swapped||v.dataset.go)return;v.dataset.go=1;
+   v.currentTime=(hv.currentTime+0.15)%(hv.duration||1e9);
+   v.addEventListener('seeked',()=>{const pp=v.play();(pp&&pp.then?pp:Promise.resolve()).then(()=>{
+     const t=hv.currentTime;if(Math.abs(v.currentTime-t)>0.12&&Math.abs(v.currentTime-t)<5)v.currentTime=t;
+     requestAnimationFrame(()=>{v.classList.add('on');clearTimeout(giveUp);H.swapped=true;act=v;['play','pause'].forEach(e=>v.addEventListener(e,sync));
+      setTimeout(()=>{hv.pause();sync()},600)});
+     if(userPaused)v.pause()}).catch(()=>{})},{once:true})});
+ };
+ hv.addEventListener('playing',()=>setTimeout(up,300),{once:true});
+}
 // Newsletter (Vorschau)
 const nf=$('.news form');if(nf)nf.addEventListener('submit',()=>{$('#nl-msg').textContent=T.nl});
 function bindBuy(){$$('[data-q]').forEach(b=>b.onclick=()=>{const i=$('#qty');i.value=Math.max(1,(+i.value||1)+(+b.dataset.q))});
