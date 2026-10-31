@@ -323,3 +323,5 @@ footer .links.svc{margin:0}footer .small{color:#bbb}
 @media(max-width:560px){.favs{grid-auto-columns:72%}.opt span{padding:var(--s2) var(--s4)}.qs{min-width:0;width:100%}}
 @media(prefers-reduced-motion:reduce){.cart,.cart-bg{transition:none}}
 /* R5 END */
+
+.script .heart{display:inline-block;width:1.05em;height:.92em;vertical-align:-.08em;margin-left:.12em;transform:rotate(-9deg);overflow:visible}
