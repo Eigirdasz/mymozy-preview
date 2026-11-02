@@ -10,6 +10,9 @@ const T=EN?{cart:'Preview: the cart isn’t active yet – nothing was added.',m
  gal:'Bildergalerie',aiprod:'KI-Produktbild',choose:'Bild auswählen',ainote:'Produktabbildung ist KI-generiert und kann vom tatsächlichen Produkt abweichen.',aimodel:'KI-generiertes Bild',malt:'Model trägt ein Serum auf',neutral:'<p>Produktinfos folgen.</p>',
  acc:'<details open><summary>Das steckt drin</summary><p>Produktbeschreibung und Inhaltsstoffe folgen.</p></details><details><summary>Inhaltsstoffe</summary><p>INCI folgt.</p></details><details><summary>Anwendung</summary><p>Folgt.</p></details><details><summary>Hinweise</summary><p>Folgt.</p></details><details><summary>Versand, Zahlung &amp; Rückgabe</summary><p>Kostenloser Versand ab 50 € (DE), darunter 3,95 €. Zahlung und Rückgabe: Details folgen.</p></details>',
  needs:{feuchtigkeit:'Feuchtigkeit',reinigung:'Reinigung',hautbarriere:'Hautbarriere',glow:'Glow'}};
+const esc=t=>String(t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
+const infoAcc=p=>{const i=p.info,d=EN?i.en.desc:i.desc,h=EN?i.en.howto:i.howto,n=EN?i.en.note:i.note;
+ return `<details open><summary>${EN?'What’s inside':'Das steckt drin'}</summary><p>${esc(d)}</p></details><details><summary>${EN?'Ingredients (INCI)':'Inhaltsstoffe (INCI)'}</summary><p class="small">${esc(i.inci)}</p></details><details><summary>${EN?'How to use':'Anwendung'}</summary><p>${esc(h)}</p></details><details><summary>${EN?'Good to know':'Hinweise'}</summary><p>${esc(n)}</p></details>`+T.acc.slice(T.acc.lastIndexOf('<details>'));};
 // Set-Preise zentral aus window.SETS (products.js)
 const fmt=n=>EN?'€'+n.toFixed(2):n.toFixed(2).replace('.',',')+'\u00a0€';
 const shipTxt=n=>n>=50?(EN?'free shipping within Germany':'versandkostenfrei in DE'):(EN?'plus €3.95 shipping':'zzgl. 3,95 € Versand');
@@ -96,7 +99,7 @@ if(pdp){const p=PRODUCTS.find(x=>x.ean===q.get('ean'))||PRODUCTS[0];document.tit
  <div class="eyebrow">${p.brand}</div><h1>${p.name}</h1><p class="small">${v(p,'type')?v(p,'type')+' · ':''}${T.size}: ${p.size}</p>${v(p,'stepLabel')?`<span class="step">${T.routine}: ${v(p,'stepLabel')}</span>`:''}
  <div class="price big">${v(p,'price')}</div>${p.available?`<p class="small">${meta(p)}</p><p class="small">${v(p,'grundpreis')}</p>`:''}
  <div class="buy"><div class="qty"${p.available?'':' hidden'}><button type="button" data-q="-1" aria-label="${T.less}">−</button><input id="qty" value="1" inputmode="numeric" aria-label="${T.qty}"><button type="button" data-q="1" aria-label="${T.more}">+</button></div>${p.available?`<button class="btn" type="button" id="add">${T.add}</button>`:`<button class="btn" type="button" disabled>${p.oos?T.oos:T.soon}</button>`}</div><p class="small" id="msg" role="status"></p>${sets}
- <div class="accs">${p.neutral?T.neutral:T.acc}</div></div></div>
+ <div class="accs">${p.neutral?T.neutral:(p.info?infoAcc(p):T.acc)}</div></div></div>
  ${rel.length?`<section class="rel" aria-labelledby="h-rel"><h2 class="h2s" id="h-rel">${T.matches}</h2><div class="pgrid">${rel.map(card).join('')}</div></section>`:''}`;
  pdp.style.minHeight='';}
 $$('[data-gal]').forEach(initGal);
