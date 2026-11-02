@@ -232,7 +232,7 @@ window.PRODUCTS=[
    "glow"
   ],
   "size": "15 ml",
-  "price": "Bald wieder verfügbar",
+  "price": "Derzeit nicht verfügbar",
   "oos": true,
   "priceValue": null,
   "available": false,
@@ -245,7 +245,7 @@ window.PRODUCTS=[
   "en": {
    "type": "",
    "stepLabel": "",
-   "price": "Back soon",
+   "price": "Currently unavailable",
    "grundpreis": "",
    "ship": ""
   }
