@@ -425,19 +425,19 @@ window.PRODUCTS=[
   "sku": "CEU011",
   "ean": "8806133616536",
   "brand": "Dr. Ceuracle",
-  "name": "Dr. Ceuracle Vegan Kombucha Tea Gel Cream 75 g",
+  "name": "Dr. Ceuracle Vegan Kombucha Tea Gel Cream 75 ml",
   "type": "Gel-Creme",
   "step": 5,
   "stepLabel": "Schritt 5 · Creme",
   "concerns": [
    "feuchtigkeit"
   ],
-  "size": "75 g",
+  "size": "75 ml",
   "price": "16,90 €",
   "oos": false,
   "priceValue": 16.9,
   "available": true,
-  "grundpreis": "Grundpreis: 22,53 € / 100 g",
+  "grundpreis": "Grundpreis: 22,53 € / 100 ml",
   "ship": "zzgl. 3,95 € Versand",
   "img": "assets/img/p-8806133616536",
   "featured": true,
@@ -458,7 +458,7 @@ window.PRODUCTS=[
    "type": "Gel cream",
    "stepLabel": "Step 5 · Cream",
    "price": "€16.90",
-   "grundpreis": "Unit price: €22.53 / 100 g",
+   "grundpreis": "Unit price: €22.53 / 100 ml",
    "ship": "plus €3.95 shipping"
   }
  },
