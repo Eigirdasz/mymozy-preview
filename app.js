@@ -70,7 +70,7 @@ function initGal(g){const st=g.querySelector('.stage'),sl=[...st.querySelectorAl
   th.forEach((b,k)=>{b.setAttribute('aria-pressed',k===i);b.tabIndex=k===i?0:-1});if(focus)th[i].focus();
   const show=()=>{if(t!==tok)return;sl.forEach((s,k)=>s.classList.toggle('on',k===i))};
   (im.complete&&im.naturalWidth?Promise.resolve():(im.decode?im.decode():Promise.resolve()).catch(()=>{})).then(show);
-  g.classList.toggle('is-prod',!sl[i].classList.contains('model'));if(ai)ai.textContent=sl[i].classList.contains('model')?g.dataset.aiModel:g.dataset.aiProd;
+  g.classList.toggle('is-prod',!sl[i].classList.contains('model'));if(ai){const m=sl[i].classList.contains('model');ai.hidden=m;ai.textContent=m?'':g.dataset.aiProd;}
   const tp=g.querySelector(`template[data-cap="${i}"]`);if(cap)cap.innerHTML=tp?tp.innerHTML:'';cur=i};
  th.forEach((b,k)=>{b.onclick=()=>go(k);b.addEventListener('pointerenter',()=>load(sl[k]));b.addEventListener('focus',()=>load(sl[k]))});
  const grp=g.querySelector('.thumbs');grp.addEventListener('keydown',e=>{const d={ArrowRight:1,ArrowDown:1,ArrowLeft:-1,ArrowUp:-1}[e.key];
