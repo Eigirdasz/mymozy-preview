@@ -105,3 +105,15 @@ if(pdp){const p=PRODUCTS.find(x=>x.ean===q.get('ean'))||PRODUCTS[0];document.tit
 $$('[data-gal]').forEach(initGal);
 bindBuy();
 })();
+/* Akkordeon: exklusiv + animiert (Safari-tauglich via Hoehen-Animation am <details>) */
+(function(){const RM=matchMedia('(prefers-reduced-motion: reduce)'),D=280,E='cubic-bezier(.4,0,.2,1)';
+function sh(d){return d.querySelector(':scope>summary').offsetHeight}
+function anim(d,open){if(d._a){d._a.cancel();d._a=null}
+  if(RM.matches||!d.animate){d.open=open;return}
+  const from=d.offsetHeight;if(open)d.open=true;const to=open?d.scrollHeight:sh(d);
+  d.style.overflow='hidden';const a=d.animate({height:[from+'px',to+'px']},{duration:D,easing:E});d._a=a;
+  a.onfinish=()=>{d._a=null;if(!open)d.open=false;d.style.overflow=''};a.oncancel=()=>{d.style.overflow=''}}
+document.addEventListener('click',e=>{const s=e.target.closest('details>summary');if(!s)return;const d=s.parentElement;e.preventDefault();
+  const open=!(d.open&&!d._closing);d._closing=!open;
+  if(open)[...d.parentElement.children].forEach(o=>{if(o!==d&&o.tagName==='DETAILS'&&o.open){o._closing=true;anim(o,false);setTimeout(()=>o._closing=false,D)}});
+  anim(d,open);setTimeout(()=>{d._closing=false},D)})})();
