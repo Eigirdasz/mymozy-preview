@@ -197,8 +197,8 @@ details>p{padding:0 0 var(--s4);color:var(--grey-700)}
 .card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
 .card .num{margin-top:var(--s3)}.card h2,.card h3{font-size:var(--t-md);text-decoration:underline;text-underline-offset:4px}.card p{margin:0;font-size:var(--t-sm);color:var(--grey-700)}
 .card .price{margin-top:auto;padding-top:var(--s3)}
-.packs{display:flex;justify-content:center;align-items:center;gap:0;background:var(--pk);border-radius:var(--r-md);padding:var(--s2);aspect-ratio:4/3}
-.packs picture{display:block;flex:1 1 0;min-width:0;max-width:50%}.packs img{width:100%;height:auto;aspect-ratio:4/5;object-fit:contain;box-sizing:border-box;padding:4%;background:var(--pk);-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent),linear-gradient(transparent,#000 8%,#000 92%,transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent),linear-gradient(transparent,#000 8%,#000 92%,transparent);mask-composite:intersect}
+.packs{display:grid;grid-template-columns:repeat(3,1fr);gap:3%;background:var(--pk);border-radius:var(--r-md);padding:7% 5% 8%;aspect-ratio:4/3;box-sizing:border-box}
+.packs picture{display:block;position:relative;min-width:0;min-height:0;height:100%}.packs img{position:absolute;left:50%;bottom:0;transform:translateX(-50%);max-width:100%;max-height:100%;width:auto;height:auto}
 .fuer{font-weight:700;color:var(--ink)!important}
 .intro{display:grid;grid-template-columns:1fr 1fr;gap:var(--s7);align-items:center;margin-bottom:var(--s7)}
 .intro .lifestyle{aspect-ratio:5/4}.intro .lifestyle img{object-position:50% 40%}
@@ -330,3 +330,8 @@ footer .links.svc{margin:0}footer .small{color:#bbb}
 .hero-media video.hv4{z-index:1;opacity:0;transition:opacity .45s ease}
 .hero-media video.hv4.on{opacity:1}
 .hero-media #vtoggle,.hero-media .vtoggle{z-index:3}
+.qitems{list-style:none;margin:var(--s3) 0 var(--s4);padding:0;display:grid;gap:6px}
+.qitems li{position:relative;padding-left:22px;font-size:18px;line-height:1.4;color:var(--ink)}
+.qitems li::before{content:"";position:absolute;left:4px;top:.62em;width:7px;height:7px;border-radius:50%;background:currentColor;opacity:.55}
+.qitems .qin{font-weight:500}.qitems .qsz{font-weight:400;color:var(--grey-700)}
+@media(max-width:560px){.qitems li{font-size:16px}}
