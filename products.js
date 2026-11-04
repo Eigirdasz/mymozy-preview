@@ -146,7 +146,7 @@ window.PRODUCTS=[
   "available": false,
   "grundpreis": "",
   "ship": "",
-  "img": "assets/img/p-8809606850505",
+  "img": "assets/img/p-8809606850505-v2",
   "featured": true,
   "neutral": false,
   "info": {
