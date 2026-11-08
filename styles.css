@@ -324,7 +324,7 @@ details>p{padding:0 0 var(--s4);color:var(--grey-700)}
 #sets{scroll-margin-top:var(--s5)}#sets .h2s{margin-bottom:var(--s5)}
 /* Kontakt & FAQ */
 .kf{display:grid;grid-template-columns:1fr 1.2fr;gap:var(--s8);padding:var(--s7) 0}
-.kf h1{font-size:clamp(36px,4.4vw,56px);margin-bottom:var(--s3)}.kf .script{margin-bottom:var(--s4)}.kf .lead a{font-weight:700;word-break:break-all}.ph{font-style:italic}
+.kf h1{font-size:clamp(36px,4.4vw,56px);margin-bottom:var(--s3)}.kf .script{margin-bottom:var(--s4)}.kf .lead a{font-weight:700;overflow-wrap:break-word}.ph{font-style:italic}
 .cform{display:flex;flex-direction:column;gap:var(--s2);margin-top:var(--s5);max-width:520px}.cform label{font-weight:700;font-size:var(--t-sm);margin-top:var(--s2)}
 .cform input,.cform textarea{font:inherit;padding:var(--s3);border:1px solid var(--sand-400);border-radius:var(--r-sm);background:var(--white);min-height:48px}.cform .btn{align-self:flex-start;margin-top:var(--s2)}
 .faq{margin-top:var(--s4)}.kf .h2s{font-size:var(--t-3xl)}
