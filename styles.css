@@ -62,7 +62,7 @@ header .wrap{display:flex;align-items:center;gap:var(--s5);min-height:72px}
  .logo-foot img{height:22px}
 }
 nav{display:flex;gap:var(--s1);font-size:var(--t-sm);font-weight:600;margin:0 auto}
-nav>a{text-decoration:none;padding:var(--s3) var(--s3);border-radius:var(--r-sm);white-space:nowrap}nav>a:hover{background:var(--sand-200)}nav>a[aria-current=page]{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:6px}
+header nav>a{text-decoration:none;padding:var(--s3) var(--s3);border-radius:var(--r-sm);white-space:nowrap}header nav>a:hover{background:var(--sand-200)}header nav>a[aria-current=page]{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:6px}
 .icons{display:flex;align-items:center;gap:var(--s1);flex:none}
 .icons>a,.menu{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%}.icons>a:hover,.menu:hover{background:var(--sand-200)}
 .icons svg{width:22px;height:22px}
@@ -359,3 +359,24 @@ footer .links.svc{margin:0}footer .small{color:#bbb}
  header .logo{max-width:calc(100% - 168px);padding:8px 4px 8px 0}
  /* reserve ≈ icons(120)+menu(40)+wrap-gaps(4)=164; 168 leaves a little slack */
 }
+
+/* Footer link states: WCAG AA on cream pill / selection */
+footer .links a{
+  display:inline-flex;align-items:center;min-height:44px;
+  padding:6px 12px;margin:2px 0;border-radius:var(--r-pill);
+  color:#eee;background:transparent;
+  text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px;
+  transition:background-color .15s,color .15s
+}
+footer .links a:hover,
+footer .links a:focus,
+footer .links a:focus-visible,
+footer .links a:active,
+footer .links a[aria-current],
+footer .links a[aria-current=page],
+footer .links a.selected{
+  background:var(--cream);color:var(--ink);text-decoration-thickness:2px
+}
+footer .links a:focus-visible{box-shadow:0 0 0 3px #111,0 0 0 6px var(--lime)}
+footer::selection,footer *::selection{background:var(--cream);color:var(--ink)}
+footer::-moz-selection,footer *::-moz-selection{background:var(--cream);color:var(--ink)}
