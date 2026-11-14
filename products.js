@@ -21,7 +21,7 @@ window.PRODUCTS=[
   "featured": true,
   "neutral": false,
   "info": {
-   "desc": "Ein sanftes Reinigungsöl aus einer Mischung pflanzlicher Öle. Es löst Make-up, überschüssigen Talg und Schmutz – die Haut fühlt sich danach sauber und frisch an.",
+   "desc": "Reinigungsöl mit Sonnenblumen-, Macadamia-, Jojoba-, Oliven- und Wiesenschaumkrautöl sowie Zitrusölen.",
    "inci": "Helianthus Annuus (Sunflower) Seed Oil, Cetyl Ethylhexanoate, Sorbeth-30 Tetraisostearate, Ethylhexylglycerin, Caprylyl Glycol, Citrus Aurantium Dulcis (Orange) Peel Oil, Citrus Paradisi (Grapefruit) Peel Oil, Macadamia Ternifolia Seed Oil, Limnanthes Alba (Meadowfoam) Seed Oil, Olea Europaea (Olive) Fruit Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Citrus Aurantium Bergamia (Bergamot) Fruit Oil, Tocopherol, Water, Butylene Glycol, Lactobacillus Ferment, 1,2-Hexanediol, Lactobacillus Ferment Lysate, Lactococcus Ferment Lysate, Bifida Ferment Filtrate, Bifida Ferment Lysate, Saccharomyces Ferment Filtrate.",
    "howto": "Eine ausreichende Menge auf die trockene Haut geben und sanft einmassieren, bis sich Schmutz und Make-up lösen. Mit lauwarmem Wasser abspülen.",
    "note": "Außerhalb der Reichweite von Kindern aufbewahren und vor direkter Sonneneinstrahlung schützen. Bei ungewohnten Reaktionen wie Rötungen, Schwellungen oder Juckreiz die Anwendung sofort beenden.",
@@ -62,7 +62,7 @@ window.PRODUCTS=[
   "featured": true,
   "neutral": false,
   "info": {
-   "desc": "Ein mildes Reinigungsöl mit fermentierten Pflanzenextrakten und natürlichen Ölen. Es entfernt Make-up, Sonnenschutz, überschüssigen Talg und Schmutz, ohne die Haut aus dem Gleichgewicht zu bringen. Für alle Hauttypen geeignet, auch für empfindliche Haut.",
+   "desc": "Reinigungsöl mit Sojabohnen-, Jojoba- und Sonnenblumenöl sowie fermentierten Pflanzenextrakten. Mit Wasser vermischt wird das Öl milchig.",
    "inci": "Ethylhexyl palmitate, Sorbeth-30 tetraoleate, Triethylhexanoin, Glycine soja (soybean) oil, Caprylic/capric triglyceride, Simmondsia chinensis (jojoba) seed oil, Fragrance (parfum), Tocopherol, Helianthus annuus (sunflower) seed oil, Caprylyl glycol, Ethylhexylglycerin, Water (aqua), Propanediol, Glycerin, Lactobacillus/soybean ferment extract, Lactobacillus/punica granatum fruit ferment extract, Saccharomyces/barley seed ferment filtrate, Lactobacillus/pear juice ferment filtrate.",
    "howto": "2–3 Pumpstöße auf die trockene Haut geben und mit kreisenden Bewegungen einmassieren, bis sich Make-up und Schmutz lösen. Die Finger anfeuchten und weitermassieren, bis das Öl milchig emulgiert. Gründlich mit warmem Wasser abspülen.",
    "note": "Außerhalb der Reichweite von Kindern aufbewahren und vor direkter Sonneneinstrahlung schützen. Bei ungewohnten Reaktionen wie Rötungen, Schwellungen oder Juckreiz die Anwendung sofort beenden.",
@@ -108,7 +108,7 @@ window.PRODUCTS=[
   "featured": true,
   "neutral": false,
   "info": {
-   "desc": "Ein leichtes, intensiv feuchtigkeitsspendendes Serum für trockene und empfindliche Haut. Fünf Ceramide und Aquatide unterstützen die natürliche Feuchtigkeitsbarriere, Panthenol sorgt für ein angenehmes Hautgefühl. Die Haut wirkt praller und frischer.",
+   "desc": "Leichtes Serum mit fünf Ceramiden und Panthenol.",
    "inci": "Water, Butylene Glycol, Glycerin, Glycereth-26, Caprylic/Capric Triglyceride, 1,2-Hexanediol, Pentaerythrityl Tetraisostearate, Panthenol, Pantolactone, Ceramide EOP, Ceramide NS, Ceramide NP, Ceramide AS, Ceramide AP, Biosaccharide Gum-1, Heptasodium Hexacarboxymethyl Dipeptide-12, Phytosphingosine, C14-22 Alcohols, Cetearyl Alcohol, Stearic Acid, Sorbitan Sesquioleate, Glyceryl Stearate, Hydrogenated Lecithin, Carbomer, Glucose, C12-20 Alkyl Glucoside, Ethylhexylglycerin, Cholesterol, Tromethamine.",
    "howto": "Nach der Reinigung und der Essenz einige Tropfen in die Handflächen geben, auf dem Gesicht verteilen und mit den Fingerspitzen sanft einklopfen. Anschließend eine Tagescreme auftragen. Morgens und abends geeignet.",
    "note": "Außerhalb der Reichweite von Kindern aufbewahren und vor direkter Sonneneinstrahlung schützen. Bei ungewohnten Reaktionen wie Rötungen, Schwellungen oder Juckreiz die Anwendung sofort beenden.",
@@ -150,7 +150,7 @@ window.PRODUCTS=[
   "featured": true,
   "neutral": false,
   "info": {
-   "desc": "Eine leichte Creme für trockene und empfindliche Haut. Fünf Ceramide und das Peptid Aquatide unterstützen die Hautbarriere und helfen, Feuchtigkeit zu halten. Panthenol und Allantoin pflegen die Haut geschmeidig. Die Textur zieht schnell ein und klebt nicht.",
+   "desc": "Leichte Creme mit fünf Ceramiden, Panthenol und Allantoin.",
    "inci": "Water, Glycerin, Caprylic/Capric Triglyceride, Butylene Glycol, Propanediol, Stearic Acid, Cetearyl Alcohol, Methyl Trimethicone, Caprylyl Methicone, 1,2-Hexanediol, C12-16 Alcohols, Panthenol, Olea Europaea (Olive) Fruit Oil, Dipropylene Glycol, Allantoin, Pantolactone, Malt Extract, Ceramide EOP, Ceramide NS, Ceramide NP, Ceramide AS, Ceramide AP, Sodium Hyaluronate, Heptasodium Hexacarboxymethyl Dipeptide-12, Phytosphingosine, Arachidic Acid, Oleic Acid, Palmitic Acid, Glyceryl Stearate SE, Hydrogenated Lecithin, Xanthan Gum, Carbomer, Glucose, Cetearyl Glucoside, Ethylhexylglycerin, Cholesterol, Tocopherol, Tromethamine, Disodium EDTA.",
    "howto": "Nach Serum oder Ampulle eine kleine Menge in die Handflächen geben, mit Aufwärtsbewegungen auf Gesicht und Hals verteilen und sanft einklopfen, bis die Creme eingezogen ist. Morgens und abends geeignet.",
    "note": "Außerhalb der Reichweite von Kindern aufbewahren und vor direkter Sonneneinstrahlung schützen. Bei ungewohnten Reaktionen wie Rötungen, Schwellungen oder Juckreiz die Anwendung sofort beenden.",
@@ -191,7 +191,7 @@ window.PRODUCTS=[
   "featured": false,
   "neutral": false,
   "info": {
-   "desc": "Ein leichtes Serum für empfindliche, trockene und unausgeglichene Haut. Centella-asiatica-Extrakt beruhigt, Niacinamid hilft, die Talgproduktion auszugleichen und Poren optisch zu verfeinern. Panthenol und Grüntee-Extrakt spenden Feuchtigkeit. Ohne Duftstoffe.",
+   "desc": "Leichtes Serum mit Niacinamid, Centella-asiatica-Extrakt, Panthenol und Grüntee-Extrakt.",
    "inci": "Water, Dipropylene Glycol, Niacinamide, Glycerin, Butylene Glycol, 1,2-Hexanediol, Hydroxyethyl Urea, Centella Asiatica Extract, Carbomer, Tromethamine, Hydroxyacetophenone, Ethylhexylglycerin, Caprylyl Glycol, Polygonum Cuspidatum Root Extract, Scutellaria Baicalensis Root Extract, Melia Azadirachta Leaf Extract, Portulaca Oleracea Extract, Disodium EDTA, Glycyrrhiza Uralensis (Licorice) Root Extract, Allantoin, Camellia Sinensis Leaf Extract, Glyceryl Acrylate/Acrylic Acid Copolymer, Chamomilla Recutita (Matricaria) Flower Extract, Rosmarinus Officinalis (Rosemary) Leaf Extract, Panthenol, Trehalose, Melia Azadirachta Flower Extract, PVM/MA Copolymer, Beta-Glucan, Biosaccharide Gum-1, Dipotassium Glycyrrhizate, Sodium Hyaluronate, Tocopherol, Hydrolyzed Hyaluronic Acid, Madecassoside, Sodium Acetylated Hyaluronate, Madecassic Acid, Asiatic Acid, Asiaticoside.",
    "howto": "Nach der Reinigung eine ausreichende Menge auf Gesicht und Hals auftragen, dabei die Augenpartie aussparen, und sanft verteilen, bis das Serum eingezogen ist. Anschließend eine Tagescreme auftragen. Morgens und abends geeignet.",
    "note": "Außerhalb der Reichweite von Kindern aufbewahren und vor direkter Sonneneinstrahlung schützen. Bei ungewohnten Reaktionen wie Rötungen, Schwellungen oder Juckreiz die Anwendung sofort beenden. Nicht im Augenbereich anwenden.",
@@ -237,7 +237,7 @@ window.PRODUCTS=[
   "featured": true,
   "neutral": false,
   "info": {
-   "desc": "Eine konzentrierte Ampulle mit Noni-Extrakt als Hauptbestandteil. Sie spendet Feuchtigkeit, pflegt und lässt den Teint frischer wirken. Adenosin hilft, das Hautbild zu verfeinern und feine Linien optisch zu mildern. Leichte Textur, zieht schnell ein und klebt nicht – für alle Hauttypen.",
+   "desc": "Ampulle mit Noni-Extrakt, Noni-Samenöl und Adenosin.",
    "inci": "Morinda Citrifolia Fruit Extract, Butylene Glycol, Propanediol, Glycerin, 1,2-Hexanediol, Diethoxyethyl Succinate, Glyceryl Acrylate/Acrylic Acid Copolymer, Morinda Citrifolia Seed Oil, Ceramide NP, Olea Europaea (Olive) Fruit Oil, Butyrospermum Parkii (Shea) Butter, Squalane, Rosmarinus Officinalis (Rosemary) Leaf Oil, Melia Azadirachta Leaf Extract, Melia Azadirachta Flower Extract, Theobroma Cacao (Cocoa) Extract, Dextrin, Phytosphingosine, Cholesterol, Sodium Hyaluronate, Hydrogenated Lecithin, C12-13 Pareth-9, Sodium Polyacryloyldimethyl Taurate, Caprylic/Capric Triglyceride, Water, Allantoin, Adenosine, Disodium EDTA, Chlorphenesin.",
    "howto": "Nach der Reinigung eine ausreichende Menge auf das Gesicht auftragen und sanft verteilen. Anschließend eine Tagescreme auftragen. Morgens und abends geeignet.",
    "note": "Außerhalb der Reichweite von Kindern aufbewahren und vor direkter Sonneneinstrahlung schützen. Bei ungewohnten Reaktionen wie Rötungen, Schwellungen oder Juckreiz die Anwendung sofort beenden.",
@@ -278,7 +278,7 @@ window.PRODUCTS=[
   "featured": true,
   "neutral": false,
   "info": {
-   "desc": "Eine seidige Creme für trockene, müde wirkende und reife Haut. Noni-Extrakt und Noni-Samenöl pflegen und lassen die Haut erfrischt wirken. Ceramid unterstützt die natürliche Feuchtigkeitsbarriere, Adenosin lässt feine Linien optisch gemildert erscheinen. Zieht leicht ein, mit dezentem Rosmarinduft.",
+   "desc": "Seidige Creme mit Noni-Extrakt, Noni-Samenöl, Ceramid, Adenosin und Rosmarinöl.",
    "inci": "Noni Fruit Extract, Water, Glycerin, Methylpropanediol, Hydrogenated Poly, Methyl Trimethicone, Neopentyl Glycol Diheptanoate, 1,2-Hexanediol, Niacinamide, Shea Butter, Trehalose, Capric Triglyceride, Polyglyceryl-3 Methylglucose Distearate, Dimethicone, Cetyl Alcohol, Glyceryl Stearate SE, Morinda Citrifolia Seed Oil, Butylene Glycol, Dipropylene Glycol, Eclipta Prostrata Leaf Extract, Laminaria Japonica Extract, Behenyl Alcohol, Hydrogenated Lecithin, Cetearyl Alcohol, Ethylhexylglycerin, Polyglyceryl-10 Myristate, Rosemary Leaf Oil, Melia Azadirachta Leaf Extract, Propanediol, Adenosine, Fructooligosaccharides, Sodium Stearoyl Glutamate, Malt Extract, Beta-Glucan, Cholesterol, Melia Azadirachta Flower Extract, Carbomer, Sodium Hyaluronate, Tromethamine, Acmella Oleracea Extract, Hydrolyzed Hyaluronic Acid, Ceramide NP, Palmitic Acid, Fig Extract, Centella Asiatica Extract, Stearic Acid, Arginine, Tocopherol.",
    "howto": "Nach Reinigung und Serum eine kleine Menge auf das Gesicht auftragen und sanft einklopfen, bis die Creme eingezogen ist. Morgens und abends geeignet.",
    "note": "Außerhalb der Reichweite von Kindern aufbewahren und vor direkter Sonneneinstrahlung schützen. Bei ungewohnten Reaktionen wie Rötungen, Schwellungen oder Juckreiz die Anwendung sofort beenden.",
@@ -351,7 +351,7 @@ window.PRODUCTS=[
   "featured": true,
   "neutral": false,
   "info": {
-   "desc": "Eine reichhaltige Creme mit Propolis-Extrakt. Sie pflegt und macht müde wirkende Haut geschmeidig, für ein gesundes Aussehen und natürliches Strahlen. Pflanzenextrakte, Vitamine, Antioxidantien, Pflanzenöle und Feuchthaltemittel pflegen die Haut und unterstützen ihre schützende Oberfläche.",
+   "desc": "Reichhaltige Creme mit Propolis-Extrakt, Sanddorn-Fruchtextrakt, Niacinamid und Pflanzenölen.",
    "inci": "Propolis Extract, Water, Butylene Glycol, Hippophae Rhamnoides Fruit Extract, Vegetable Oil, Polyglyceryl-3 Methylglucose Distearate, Niacinamide, 1,2-Hexanediol, Ammonium Acryloyldimethyl Taurate/Vinyl Pyrrolidone Copolymer, Camellia Japonica Seed Oil, Ethyl Ascorbyl Ether, Laminaria Japonica Extract, Eclipta Leaf Extract, Centella Asiatica Extract, Fig Extract, Philodendron Amurense Bark Extract, Royal Jelly Extract, Hamamelis Virginiana (Witch Hazel) Extract, Acmella Sativa (Acmella) Extract, Portulaca Oleracea Extract, Rosemary Extract, Chamomilla Recutita (Matricaria) Flower Extract, Theobroma Cacao Seed Extract, Lupinus Alba Seed Extract, Orange Essential Oil, Rosa Centifolia Flower Water, Hyaluronate Sodium, hydrogenated lecithin, mandarin orange essential oil, helianthus annuus (sunflower) seed oil, lyceum cubeba fruit oil, stearoyl glutamate, adenosine, fructooligosaccharides, beta-glucan, hydrolyzed hyaluronic acid, dextrin, ceramide NP, tocopherol, hydroxyacetophenone, ethylhexylglycerin.",
    "howto": "Als letzten Pflegeschritt eine kleine Menge gleichmäßig auf Gesicht und Hals verteilen und mit leichten Massagebewegungen einarbeiten. Morgens und abends anwenden.",
    "note": "Außerhalb der Reichweite von Kindern aufbewahren und vor direkter Sonneneinstrahlung schützen. Bei ungewohnten Reaktionen wie Rötungen, Schwellungen oder Juckreiz die Anwendung sofort beenden.",
@@ -397,7 +397,7 @@ window.PRODUCTS=[
   "featured": true,
   "neutral": false,
   "info": {
-   "desc": "Eine vegane Essenz mit Kombucha-Tee-Extrakt, reich an Antioxidantien. Sie hilft, die Hautoberfläche vor Umwelteinflüssen zu schützen, spendet Feuchtigkeit und bereitet die Haut auf die nächsten Pflegeschritte vor. Poren und feine Linien wirken optisch verfeinert, der Teint glatter und strahlender.",
+   "desc": "Essenz aus der Linie „Vegan Kombucha Tea“ von Dr. Ceuracle, mit Teeblatt-Extrakt und Hefe-Fermentfiltrat. Vor Gebrauch gut schütteln.",
    "inci": "Water, Triethylhexanoin, Hydrogenated Poly(C6-14 Olefin), 1,2-Hexanediol, Methylpropanediol, Butylene Glycol, Glycerin, Trilaureth-4 Phosphate, Camellia Sinensis Leaf Extract, Saccharomyces Ferment Filtrate, Camellia Sinensis Leaf Water, Helianthus Annuus (Sunflower) Seed Oil Unsaponifiables, Polyquaternium-51, Sodium Hyaluronate, Ethylhexylglycerin, Hydrogenated Lecithin, Dextrin, Theobroma Cacao (Cocoa) Seed Extract, Centella Asiatica Extract, Ficus Carica (Fig) Fruit Extract, Schisandra Chinensis Fruit Extract, Amaranthus Caudatus Seed Extract, Ulmus Davidiana Root Extract, Ceramide Np.",
    "howto": "Vor Gebrauch gut schütteln. Auf die gereinigte Gesichtshaut auftragen und sanft einmassieren, bis die Essenz eingezogen ist. Vor der ersten Anwendung einen Verträglichkeitstest machen.",
    "note": "Außerhalb der Reichweite von Kindern aufbewahren und vor direkter Sonneneinstrahlung schützen. Bei ungewohnten Reaktionen wie Rötungen, Schwellungen oder Juckreiz die Anwendung sofort beenden.",
@@ -443,7 +443,7 @@ window.PRODUCTS=[
   "featured": true,
   "neutral": false,
   "info": {
-   "desc": "Eine vegane Gel-Creme mit fermentiertem Schwarztee-Extrakt (Kombucha). Sie spendet trockener Haut Feuchtigkeit und gibt fahl und müde wirkender Haut ein frisches Gefühl und natürliches Strahlen zurück. Unterstützt die Feuchtigkeitsbarriere und hilft, Glanz auf der Hautoberfläche zu mindern.",
+   "desc": "Gel-Creme aus der Linie „Vegan Kombucha Tea“ von Dr. Ceuracle, mit Teeblatt-Extrakt, Hefe-Fermentfiltrat und Niacinamid.",
    "inci": "Camellia Sinensis Leaf Water, Camellia Sinensis Leaf Extract, Saccharomyces Ferment Filtrate, Glycerin, Methylpropanediol, Water, Dicaprylyl Ether, Glycereth-26, Niacinamide, 1,2-Hexanediol, Laminaria Japonica Extract, Eclipta Prostrata Leaf Extract, Arctium Lappa Root Extract, Phellinus Linteus Extract, Theobroma Cacao (Cocoa) Seed Extract, Schisandra Chinensis Fruit Extract, Hydrogenated Lecithin, Rosmarinus Officinalis (Rosemary) Leaf Oil, Ammonium Acryloyldimethyltaurate/VP Copolymer, Carbomer, Tromethamine, Polyquaternium-51, Helianthus Annuus (Sunflower) Seed Oil Unsaponifiables, Fructooligosaccharides, Xanthan Gum, Beta-Glucan, Dextrin, Hydrolyzed Hyaluronic Acid, Butylene Glycol, Hydroxyacetophenone, Ethylhexylglycerin.",
    "howto": "Auf die gereinigte Haut auftragen und einmassieren, bis die Gel-Creme eingezogen ist.",
    "note": "Außerhalb der Reichweite von Kindern aufbewahren und vor direkter Sonneneinstrahlung schützen. Bei ungewohnten Reaktionen wie Rötungen, Schwellungen oder Juckreiz die Anwendung sofort beenden.",
@@ -484,7 +484,7 @@ window.PRODUCTS=[
   "featured": true,
   "neutral": false,
   "info": {
-   "desc": "Ein konzentriertes Serum mit leichter, honigartiger Textur, das die Haut pflegt, mit Feuchtigkeit versorgt und für einen natürlichen Glow sorgt. Bienenprodukte und Vitamine erfrischen fahl und müde wirkende Haut, verbessern das Elastizitätsgefühl und lassen das Hautbild glatter wirken.",
+   "desc": "Ampulle mit Propolis-, Gelée-Royale- und Honigextrakt, Niacinamid und Panthenol. Leichte, honigartige Textur; mit Pipette.",
    "inci": "Propolis Extract, Butylene Glycol, Aqua, Panthenol, Rosa Centifolia Flower Water, Portulaca Oleracea Extract, Niacinamide, Propylene Glycol, 1,2-Hexanediol, Hippophae Rhamnoides Fruit Extract, 3-O-Ethyl Ascorbic Acid, Jasminum Officinale Flower Water, Carbomer, Arginine, Royal Jelly Extract, Sodium Hyaluronate, Adenosine, Ethylhexylglycerin, Centella Asiatica Extract, Fucus Vesiculosus Extract, Laminaria Digitata Extract, Multiflora Rose Extract, Hamamelis Virginiana Bark/Twig Extract, Honey Extract, Monarda Didyma Leaf Extract, Melissa Officinalis Leaf Extract, Chamomilla Recutita Flower Extract, Rosemary Leaf Extract.",
    "howto": "Nach Reinigung und Toner 2–3 Tropfen mit der Pipette direkt auf die Haut oder auf saubere Fingerspitzen geben. Mit sanften Klopf- und Massagebewegungen auf Gesicht und Hals verteilen, bis das Serum eingezogen ist. Anschließend die gewohnte Creme auftragen. Morgens und abends anwenden.",
    "note": "Außerhalb der Reichweite von Kindern aufbewahren und vor direkter Sonneneinstrahlung schützen. Bei ungewohnten Reaktionen wie Rötungen, Schwellungen oder Juckreiz die Anwendung sofort beenden.",
@@ -530,7 +530,7 @@ window.PRODUCTS=[
   "featured": true,
   "neutral": false,
   "info": {
-   "desc": "Eine leichte und doch reichhaltige Creme, die Feuchtigkeit spendet und pflegt. Sojabohnen-Extrakt hilft, die Feuchtigkeitsbalance tagsüber und nachts zu halten, fermentierter Granatapfel-Extrakt lässt das Hautbild ebenmäßiger, glatter und strahlender wirken. Pflegt, ohne zu kleben oder zu beschweren.",
+   "desc": "Creme mit fermentierten Extrakten aus Sojabohne und Granatapfel.",
    "inci": "Water/aqua, Glycerin, Caprylic/Capric Triglyceride, Hydrogenated Polyisobutene, Polyglyceryl-3 Distearate, Glyceryl Stearate Citrate, Hydrogenated Coco-Glycerides, Limnanthes Alba (Meadowfoam) Seed Oil, Butylene Glycol, Diisostearyl Malate, Vinyl Dimethicone, Stearic Acid, Palmitic Acid, Oleic Acid, Cetearyl Alcohol, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Glyceryl Stearate, Hydroxyacetophenone, Sorbitan Isostearate, Carbomer, Tromethamine, Propanediol, Lactobacillus/Soybean Ferment Extract, Lactobacillus/Punica Granatum Fruit Ferment Extract, Saccharomyces/Barley Seed Ferment Filtrate, Lactobacillus/Pear Juice Ferment Filtrate, Panthenol, Dipotassium Glycyrrhizate, Hydrogenated Lecithin, Melia Azadirachta Flower Extract, Ocimum Sanctum Leaf Extract, Melia Azadirachta Leaf Extract, Curcuma Longa (Turmeric) Root Extract, Corallina Officinalis Extract, Eclipta Prostrata Extract, Coccinia Indica Fruit Extract, Ethylhexylglycerin, Adenosine, Disodium EDTA, Sodium Polyacrylate, Citrus Aurantium Bergamia (Bergamot) Fruit Oil, Lavandula Angustifolia (Lavender) Oil, Anthemis Nobilis Flower Oil.",
    "howto": "Als letzten Pflegeschritt nach Toner und Essenz verwenden. Auf die gereinigte Haut auftragen und mit sanft kreisenden Bewegungen einmassieren.",
    "note": "Außerhalb der Reichweite von Kindern aufbewahren und vor direkter Sonneneinstrahlung schützen. Bei ungewohnten Reaktionen wie Rötungen, Schwellungen oder Juckreiz die Anwendung sofort beenden. Nicht im Augenbereich anwenden.",
@@ -577,7 +577,7 @@ window.PRODUCTS=[
   "featured": true,
   "neutral": false,
   "info": {
-   "desc": "Eine vielseitige Essenz, die Feuchtigkeit spendet, die Haut sanft peelt und geschmeidig macht. Sie löst abgestorbene Hautschüppchen und lässt die Haut frischer und ebenmäßiger wirken. Bei regelmäßiger Anwendung wirkt die Haut wacher und Poren erscheinen feiner.",
+   "desc": "Essenz mit fermentierten Extrakten aus Sojabohne, Granatapfel, Gerste und Birne.",
    "inci": "Water, Propanediol, Glycerin, Lactobacillus/Soybean Ferment Extract, Lactobacillus/Punica Granatum Fruit Ferment Extract, Saccharomyces/Barley Seed Ferment Filtrate, Lactobacillus/Pear Juice Ferment Filtrate.",
    "howto": "Auf die saubere, feuchte Haut auftragen und mit kreisenden Bewegungen sanft einmassieren. Danach erneut auftragen und 3–5 Minuten intensiv einmassieren. Rückstände mit Wasser abspülen oder mit einem Wattepad abnehmen. Anschließend eine feuchtigkeitsspendende oder pflegende Creme auftragen. 2–3 Mal pro Woche anwenden.",
    "note": "Außerhalb der Reichweite von Kindern aufbewahren und vor direkter Sonneneinstrahlung schützen. Bei ungewohnten Reaktionen wie Rötungen, Schwellungen oder Juckreiz die Anwendung sofort beenden.",
@@ -623,7 +623,7 @@ window.PRODUCTS=[
   "featured": true,
   "neutral": false,
   "info": {
-   "desc": "Ein milder, leichter Toner mit nur wenigen Inhaltsstoffen – allen voran Centella-asiatica-Extrakt, der Feuchtigkeit spendet und die Haut beruhigt, ohne zu kleben.",
+   "desc": "Toner mit Centella-asiatica-Extrakt – laut INCI vier Inhaltsstoffe. Wässrige Textur.",
    "inci": "Water/Aqua, Butylene Glycol, 1,2-Hexanediol, Centella Asiatica Extract.",
    "howto": "Auf die saubere, feuchte Haut auftragen: eine kleine Menge auf Gesicht und Hals verteilen oder ein Wattepad damit tränken und die Haut abtupfen. Die wässrige Textur zieht schnell ein und bereitet die Haut auf die nächsten Schritte vor. Danach Essenz und Feuchtigkeitscreme verwenden.",
    "note": "Außerhalb der Reichweite von Kindern aufbewahren und vor direkter Sonneneinstrahlung schützen. Bei ungewohnten Reaktionen wie Rötungen, Schwellungen oder Juckreiz die Anwendung sofort beenden. Nicht im Augenbereich anwenden.",
@@ -664,7 +664,7 @@ window.PRODUCTS=[
   "featured": true,
   "neutral": false,
   "info": {
-   "desc": "Ein feuchtigkeitsspendendes Serum mit PDRN aus Reis, Kollagen und Peptiden. Es lässt die Haut glatter, praller und strahlender wirken. Niedermolekulare Hyaluronsäure sorgt für ein angenehm durchfeuchtetes Hautgefühl. Leicht, zieht schnell ein und klebt nicht – für die tägliche Pflege empfindlicher, trockener oder müde wirkender Haut.",
+   "desc": "Serum mit Sodium DNA, Kollagen-Extrakt, Kupfer-Tripeptid-1, Hyaluronsäure-Derivaten und Niacinamid.",
    "inci": "Water (Aqua), Dipropylene Glycol, Propanediol, Caprylic/Capric Triglyceride, Glycereth-26, Methyl Gluceth-20, Niacinamide, Glycerin, 1,2-Hexanediol, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Arginine, Xanthan Gum, Butylene Glycol, Ethylhexylglycerin, Adenosine, Coptis Japonica Extract, Hydroxypropyl Methylcellulose, Sodium Hyaluronate Crosspolymer, Polyacrylate Crosspolymer-6, Glyceryl Acrylate/Acrylic Acid Copolymer, Benzyl Glycol, Cyanocobalamin, Sodium Phytate, Hydrolyzed Hyaluronic Acid, Saccharomyces/Rice Ferment Filtrate, Sodium DNA, Tocopherol, Pentylene Glycol, Collagen Extract, Copper Tripeptide-1.",
    "howto": "Auf die gereinigte, mit Toner vorbereitete Haut auftragen. Eine kleine Menge auf dem ganzen Gesicht verteilen und sanft einklopfen, bis das Serum eingezogen ist. Anschließend eine Creme auftragen. Täglich morgens und abends geeignet.",
    "note": "Außerhalb der Reichweite von Kindern aufbewahren und vor direkter Sonneneinstrahlung schützen. Bei ungewohnten Reaktionen wie Rötungen, Schwellungen oder Juckreiz die Anwendung sofort beenden. Nicht im Augenbereich anwenden.",
@@ -714,7 +714,7 @@ window.PRODUCTS=[
   "featured": true,
   "neutral": false,
   "info": {
-   "desc": "Eine Essenz mit minimaler Rezeptur und viel Centella-asiatica-Extrakt, der Feuchtigkeit spendet und die Haut beruhigt. Die leichte, wässrige Textur zieht schnell ein, erfrischt und hinterlässt kein klebriges Gefühl.",
+   "desc": "Essenz mit Centella-asiatica-Extrakt – laut INCI vier Inhaltsstoffe. Wässrige Textur.",
    "inci": "Water/Aqua, Butylene Glycol, 1,2-Hexanediol, Centella Asiatica Extract.",
    "howto": "Auf die saubere, trockene Gesichtshaut auftragen und sanft einmassieren, bis die Essenz eingezogen ist. Alternativ 2–3 Tropfen unter die gewohnte Creme mischen.",
    "note": "Außerhalb der Reichweite von Kindern aufbewahren und vor direkter Sonneneinstrahlung schützen. Bei ungewohnten Reaktionen wie Rötungen, Schwellungen oder Juckreiz die Anwendung sofort beenden.",
