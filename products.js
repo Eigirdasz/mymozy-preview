@@ -57,7 +57,7 @@ window.PRODUCTS=[
   "priceValue": 14.9,
   "available": true,
   "grundpreis": "Grundpreis: 7,64 € / 100 ml",
-  "ship": "zzgl. 3,95 € Versand",
+  "ship": "zzgl. 5,95 € Versand",
   "img": "assets/img/p-8809268158445",
   "featured": true,
   "neutral": false,
@@ -83,7 +83,7 @@ window.PRODUCTS=[
    "stepLabel": "Step 1 · Cleanse",
    "price": "€14.90",
    "grundpreis": "Unit price: €7.64 / 100 ml",
-   "ship": "plus €3.95 shipping"
+   "ship": "plus €5.95 shipping"
   }
  },
  {
@@ -186,7 +186,7 @@ window.PRODUCTS=[
   "priceValue": 16.9,
   "available": true,
   "grundpreis": "Grundpreis: 42,25 € / 100 ml",
-  "ship": "zzgl. 3,95 € Versand",
+  "ship": "zzgl. 5,95 € Versand",
   "img": "assets/img/p-8809743544626",
   "featured": false,
   "neutral": false,
@@ -212,7 +212,7 @@ window.PRODUCTS=[
    "stepLabel": "Step 4 · Serum/ampoule",
    "price": "€16.90",
    "grundpreis": "Unit price: €42.25 / 100 ml",
-   "ship": "plus €3.95 shipping"
+   "ship": "plus €5.95 shipping"
   }
  },
  {
@@ -346,7 +346,7 @@ window.PRODUCTS=[
   "priceValue": 24.9,
   "available": true,
   "grundpreis": "Grundpreis: 49,80 € / 100 ml",
-  "ship": "zzgl. 3,95 € Versand",
+  "ship": "zzgl. 5,95 € Versand",
   "img": "assets/img/p-8806133613832",
   "featured": true,
   "neutral": false,
@@ -372,7 +372,7 @@ window.PRODUCTS=[
    "stepLabel": "Step 5 · Cream",
    "price": "€24.90",
    "grundpreis": "Unit price: €49.80 / 100 ml",
-   "ship": "plus €3.95 shipping"
+   "ship": "plus €5.95 shipping"
   }
  },
  {
@@ -392,7 +392,7 @@ window.PRODUCTS=[
   "priceValue": 21.9,
   "available": true,
   "grundpreis": "Grundpreis: 14,60 € / 100 ml",
-  "ship": "zzgl. 3,95 € Versand",
+  "ship": "zzgl. 5,95 € Versand",
   "img": "assets/img/p-8806133615218",
   "featured": true,
   "neutral": false,
@@ -418,7 +418,7 @@ window.PRODUCTS=[
    "stepLabel": "Step 3 · Essence",
    "price": "€21.90",
    "grundpreis": "Unit price: €14.60 / 100 ml",
-   "ship": "plus €3.95 shipping"
+   "ship": "plus €5.95 shipping"
   }
  },
  {
@@ -438,7 +438,7 @@ window.PRODUCTS=[
   "priceValue": 16.9,
   "available": true,
   "grundpreis": "Grundpreis: 22,53 € / 100 ml",
-  "ship": "zzgl. 3,95 € Versand",
+  "ship": "zzgl. 5,95 € Versand",
   "img": "assets/img/p-8806133616536",
   "featured": true,
   "neutral": false,
@@ -459,7 +459,7 @@ window.PRODUCTS=[
    "stepLabel": "Step 5 · Cream",
    "price": "€16.90",
    "grundpreis": "Unit price: €22.53 / 100 ml",
-   "ship": "plus €3.95 shipping"
+   "ship": "plus €5.95 shipping"
   }
  },
  {
@@ -479,7 +479,7 @@ window.PRODUCTS=[
   "priceValue": 14.9,
   "available": true,
   "grundpreis": "Grundpreis: 99,33 € / 100 ml",
-  "ship": "zzgl. 3,95 € Versand",
+  "ship": "zzgl. 5,95 € Versand",
   "img": "assets/img/p-8806133614174",
   "featured": true,
   "neutral": false,
@@ -505,7 +505,7 @@ window.PRODUCTS=[
    "stepLabel": "Step 4 · Serum/ampoule",
    "price": "€14.90",
    "grundpreis": "Unit price: €99.33 / 100 ml",
-   "ship": "plus €3.95 shipping"
+   "ship": "plus €5.95 shipping"
   }
  },
  {
@@ -525,7 +525,7 @@ window.PRODUCTS=[
   "priceValue": 20.9,
   "available": true,
   "grundpreis": "Grundpreis: 41,80 € / 100 ml",
-  "ship": "zzgl. 3,95 € Versand",
+  "ship": "zzgl. 5,95 € Versand",
   "img": "assets/img/p-8809732910661",
   "featured": true,
   "neutral": false,
@@ -551,7 +551,7 @@ window.PRODUCTS=[
    "stepLabel": "Step 5 · Cream",
    "price": "€20.90",
    "grundpreis": "Unit price: €41.80 / 100 ml",
-   "ship": "plus €3.95 shipping"
+   "ship": "plus €5.95 shipping"
   }
  },
  {
@@ -572,7 +572,7 @@ window.PRODUCTS=[
   "priceValue": 16.9,
   "available": true,
   "grundpreis": "Grundpreis: 33,80 € / 100 ml",
-  "ship": "zzgl. 3,95 € Versand",
+  "ship": "zzgl. 5,95 € Versand",
   "img": "assets/img/p-8809732910159",
   "featured": true,
   "neutral": false,
@@ -598,7 +598,7 @@ window.PRODUCTS=[
    "stepLabel": "Step 3 · Essence",
    "price": "€16.90",
    "grundpreis": "Unit price: €33.80 / 100 ml",
-   "ship": "plus €3.95 shipping"
+   "ship": "plus €5.95 shipping"
   }
  },
  {
@@ -618,7 +618,7 @@ window.PRODUCTS=[
   "priceValue": 9.9,
   "available": true,
   "grundpreis": "Grundpreis: 6,60 € / 100 ml",
-  "ship": "zzgl. 3,95 € Versand",
+  "ship": "zzgl. 5,95 € Versand",
   "img": "assets/img/p-8809732911583",
   "featured": true,
   "neutral": false,
@@ -639,7 +639,7 @@ window.PRODUCTS=[
    "stepLabel": "Step 2 · Toner",
    "price": "€9.90",
    "grundpreis": "Unit price: €6.60 / 100 ml",
-   "ship": "plus €3.95 shipping"
+   "ship": "plus €5.95 shipping"
   }
  },
  {
@@ -659,7 +659,7 @@ window.PRODUCTS=[
   "priceValue": 26.9,
   "available": true,
   "grundpreis": "Grundpreis: 89,67 € / 100 ml",
-  "ship": "zzgl. 3,95 € Versand",
+  "ship": "zzgl. 5,95 € Versand",
   "img": "assets/img/p-8809732915406",
   "featured": true,
   "neutral": false,
@@ -689,7 +689,7 @@ window.PRODUCTS=[
    "stepLabel": "Step 4 · Serum/ampoule",
    "price": "€26.90",
    "grundpreis": "Unit price: €89.67 / 100 ml",
-   "ship": "plus €3.95 shipping"
+   "ship": "plus €5.95 shipping"
   }
  },
  {
@@ -709,7 +709,7 @@ window.PRODUCTS=[
   "priceValue": 19.9,
   "available": true,
   "grundpreis": "Grundpreis: 19,90 € / 100 ml",
-  "ship": "zzgl. 3,95 € Versand",
+  "ship": "zzgl. 5,95 € Versand",
   "img": "assets/img/p-8809732910289",
   "featured": true,
   "neutral": false,
@@ -739,7 +739,7 @@ window.PRODUCTS=[
    "stepLabel": "Step 3 · Essence",
    "price": "€19.90",
    "grundpreis": "Unit price: €19.90 / 100 ml",
-   "ship": "plus €3.95 shipping"
+   "ship": "plus €5.95 shipping"
   }
  },
  {
