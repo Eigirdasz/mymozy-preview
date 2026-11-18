@@ -203,7 +203,7 @@ window.PRODUCTS=[
   },
   "sets": [
    {
-    "name": "The Calm & Protect Edit",
+    "name": "The Calm & Protect",
     "file": "set-calm-protect.html"
    }
   ],
@@ -730,7 +730,7 @@ window.PRODUCTS=[
     "file": "set-fresh-start.html"
    },
    {
-    "name": "The Calm & Protect Edit",
+    "name": "The Calm & Protect",
     "file": "set-calm-protect.html"
    }
   ],
@@ -766,7 +766,7 @@ window.PRODUCTS=[
   "info": null,
   "sets": [
    {
-    "name": "The Calm & Protect Edit",
+    "name": "The Calm & Protect",
     "file": "set-calm-protect.html"
    }
   ],
@@ -811,7 +811,7 @@ window.SETS=[
   "num": "02",
   "name": "The Fresh Start",
   "line": "Reinigen. Pflegen. Frisch starten.",
-  "sub": "Ein Mixsoon-Trio: Bean Cleansing Oil, Soondy Centella Essence und PDRN Collagen Serum – Reinigung, Essenz und Serum in einem Set.",
+  "sub": "Ein Mixsoon-Trio: Bean Cleansing Oil, Soondy Centella Essence und PDRN Collagen Serum – Reinigung, Essenz und Serum zusammen im Bundle.",
   "price": 56.9,
   "items": [
    "MXS009",
@@ -823,7 +823,7 @@ window.SETS=[
   "priceTxt": "56,90 €",
   "ship": "versandkostenfrei in DE",
   "en": {
-   "sub": "A Mixsoon trio: Bean Cleansing Oil, Soondy Centella Essence and PDRN Collagen Serum – cleanser, essence and serum in one set.",
+   "sub": "A Mixsoon trio: Bean Cleansing Oil, Soondy Centella Essence and PDRN Collagen Serum – cleanser, essence and serum together in one bundle.",
    "line": "Cleanse. Care. Start fresh.",
    "fuer": "If you want to start your routine with a cleansing oil and follow with essence and serum.",
    "priceTxt": "€56.90",
@@ -859,9 +859,9 @@ window.SETS=[
   "id": "calm",
   "file": "set-calm-protect.html",
   "num": "04",
-  "name": "The Calm & Protect Edit",
+  "name": "The Calm & Protect",
   "line": "Drei Schritte für deine Tagesroutine.",
-  "sub": "Mixsoon Soondy Centella Essence, Celimax The Real Cica Niacinamide Serum und Dr. Ceuracle Hyal Reyouth Moist Sun – drei Marken in einem Set.",
+  "sub": "Mixsoon Soondy Centella Essence, Celimax The Real Cica Niacinamide Serum und Dr. Ceuracle Hyal Reyouth Moist Sun – drei Marken zusammen im Bundle.",
   "price": null,
   "items": [
    "MXS029",
@@ -873,7 +873,7 @@ window.SETS=[
   "priceTxt": "Preis folgt",
   "ship": "",
   "en": {
-   "sub": "Mixsoon Soondy Centella Essence, Celimax The Real Cica Niacinamide Serum and Dr. Ceuracle Hyal Reyouth Moist Sun – three brands in one set.",
+   "sub": "Mixsoon Soondy Centella Essence, Celimax The Real Cica Niacinamide Serum and Dr. Ceuracle Hyal Reyouth Moist Sun – three brands together in one bundle.",
    "line": "Three steps for your daytime routine.",
    "fuer": "If you want to combine three products from three brands in your morning routine.",
    "priceTxt": "Price to follow",
